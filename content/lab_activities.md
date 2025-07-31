@@ -1,7 +1,7 @@
 ---
 title: "实验室活动"
 description: "KILab Activities and Events"
-draft: true
+draft: false
 ---
 
 {{< alert icon="construction" >}}
