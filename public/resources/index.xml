@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>资源共享 on KILab🚀</title>
-    <link>http://localhost:1313/resources/</link>
+    <link>https://kilab.github.io/resources/</link>
     <description>Recent content in 资源共享 on KILab🚀</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Knowledge Intelligince Lab @ SYSU.</copyright>
-    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kilab.github.io/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/resources/datasets/</link>
+      <link>https://kilab.github.io/resources/datasets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/datasets/</guid>
+      <guid>https://kilab.github.io/resources/datasets/</guid>
       <description></description>
     </item>
     <item>
       <title>会议截止日期</title>
-      <link>http://localhost:1313/resources/conference_deadlines/</link>
+      <link>https://kilab.github.io/resources/conference_deadlines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/conference_deadlines/</guid>
+      <guid>https://kilab.github.io/resources/conference_deadlines/</guid>
       <description></description>
     </item>
     <item>
       <title>学术成果</title>
-      <link>http://localhost:1313/resources/publications/</link>
+      <link>https://kilab.github.io/resources/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/publications/</guid>
+      <guid>https://kilab.github.io/resources/publications/</guid>
       <description></description>
     </item>
     <item>
       <title>研究项目</title>
-      <link>http://localhost:1313/resources/research_projects/</link>
+      <link>https://kilab.github.io/resources/research_projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/research_projects/</guid>
+      <guid>https://kilab.github.io/resources/research_projects/</guid>
       <description></description>
     </item>
   </channel>

@@ -20,7 +20,9 @@ description: "Welcome to Knowledge Intelligence Lab (KILab) at Sun Yat-sen Unive
 
 ## 最新动态
 
-{{< badge >}}新闻{{< /badge >}}
+{{< badge >}}
+新闻
+{{< /badge >}}
 
 ### {{< icon "lightbulb" >}} 2025年7月
 实验室官方网站全面升级，展示最新研究成果和团队风采！
