@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/resources/datasets/</loc>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/</loc>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/resources/conference_deadlines/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/resources/publications/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/team/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/lab_activities/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/resources/research_projects/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/resources/</loc>
+          </url>
+    
+  
+</urlset>
