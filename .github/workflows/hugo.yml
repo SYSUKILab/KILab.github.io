@@ -49,8 +49,12 @@ jobs:
           git submodule status
           echo "Listing theme directory:"
           ls -la themes/congo/
-          echo "Checking shortcodes directory:"
-          ls -la themes/congo/layouts/shortcodes/ || echo "Shortcodes directory not found"
+          echo "Checking layouts directory:"
+          ls -la themes/congo/layouts/
+          echo "Checking _shortcodes directory:"
+          ls -la themes/congo/layouts/_shortcodes/ || echo "_shortcodes directory not found"
+          echo "Checking alert shortcode:"
+          ls -la themes/congo/layouts/_shortcodes/alert.html || echo "alert.html not found"
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

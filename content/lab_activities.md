@@ -4,7 +4,7 @@ description: "KILab Activities and Events"
 draft: false
 ---
 
-{{< alert icon="construction" >}}
+{{< alert "construction" >}}
 **页面建设中**: 这个页面正在完善中，敬请期待！
 {{< /alert >}}
 
@@ -29,6 +29,6 @@ draft: false
 
 ---
 
-{{< alert icon="heart" >}}
+{{< alert "heart" >}}
 敬请期待更多精彩的实验室活动内容！
 {{< /alert >}}
