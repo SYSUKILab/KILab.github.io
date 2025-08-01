@@ -3,41 +3,49 @@ title: "Knowledge Intelligence Lab"
 description: "Welcome to Knowledge Intelligence Lab (KILab) at Sun Yat-sen University"
 ---
 
-## 实验室简介
+## About the Lab
 
-欢迎来到中山大学知识智能实验室（Knowledge Intelligence Lab, KILab）！我们致力于推进人工智能安全、智能信息检索、自然语言处理和知识智能等前沿研究领域。实验室由吕子钰老师领导，汇聚了一支富有创新精神的研究团队，致力于解决现实世界中的复杂智能问题，推动可信人工智能技术在各个领域的应用与发展。
+Welcome to the Knowledge Intelligence Lab (KILab) at Sun Yat-sen University! We are dedicated to advancing cutting-edge research in AI safety, intelligent information retrieval, natural language processing, and knowledge intelligence. Led by Professor Ziyu Lyu, our lab brings together an innovative research team committed to solving complex real-world intelligence problems and promoting the application and development of trustworthy artificial intelligence technologies across various domains.
 
-## 研究框架
+## Research Areas
+<!-- 
+{{< figure src="/images/research_framework.png" alt="KILab Research Framework" caption="KILab Research Framework" >}} -->
 
-{{< figure src="/images/research_framework.png" alt="KILab Research Framework" caption="KILab 研究框架图" >}}
+Our research focuses on the following core areas:
 
-我们的研究围绕以下核心领域展开：
-- **人工智能安全**：可信赖人工智能算法、AI生成内容（AIGC）安全
-- **智能信息检索**：推荐系统、用户建模与理解、互联网搜索技术
-- **自然语言处理**：大规模基础模型（LLM）、多模态知识抽取（视觉-语言）、知识表示学习与推理
-- **时空分析与预测**：位置感知社交网络分析、实时推送算法、交通数据分析、时间序列预测
-- **知识智能应用**：智慧金融、智能交通等领域的知识驱动应用
+### AI Safety
+- Trustworthy AI algorithm design and verification
+- AI-generated content (AIGC) security detection and protection
+- Adversarial example defense and robustness enhancement
+- Privacy protection technologies in federated learning
 
-## 最新动态
+### Intelligent Information Retrieval
+- Recommendation system algorithm optimization and personalization
+- User modeling and behavior understanding
+- Large-scale internet search technologies
+- Fairness and explainability in information retrieval
 
-{{< badge >}}
-新闻
-{{< /badge >}}
+### Natural Language Processing
+- Large language model (LLM) safety and controllability
+- Multimodal knowledge extraction (vision-language fusion)
+- Knowledge representation learning and reasoning
+- Quality assessment and control of natural language generation
 
-### {{< icon "lightbulb" >}} 2025年7月
-实验室官方网站全面升级，展示最新研究成果和团队风采！
+### Spatio-Temporal Analysis and Prediction
+- Spatio-temporal graph prediction: Urban traffic flow, air quality, and crowd movement forecasting using Graph Neural Networks and Transformers
+- Spatio-temporal dynamic system modeling: Modeling complex spatio-temporal systems through neural discrete learning and expert-level approaches
+- Data augmentation and optimization: Enhancing spatio-temporal prediction efficiency and robustness through dynamic sparse training and graph data augmentation
+- Causal inference: Analyzing spatio-temporal data from a causal perspective to address out-of-distribution learning and environmental confounding
+- Large-scale dataset construction: Building and releasing large-scale spatio-temporal datasets to advance the field
+- Urban computing and environmental monitoring: Location-aware social network analysis, real-time recommendation algorithms, traffic data analysis, time series prediction
 
-### {{< icon "circle-info" >}} 2023年9月
-吕老师加入中山大学网络空间安全学院，担任副教授、博士生导师
+### Knowledge Intelligence Applications
+- Risk assessment and prediction in smart finance
+- Intelligent transportation system optimization
+- Knowledge graph applications in healthcare
+- Educational intelligence and personalized learning
 
-### {{< icon "check" >}} 2023年
-实验室成果在顶级会议AAAI、ACL、MM等发表多篇高质量论文
-
-### {{< icon "globe" >}} 持续进行中
-课题组长期与香港、新加坡、澳洲等国内外著名高校和国内知名科技公司开展紧密科研合作
-
----
 
 {{< lead >}}
-我们常年招收博士生、硕士生、博士后和研究实习生。欢迎对人工智能安全、智能信息检索、自然语言处理等方向感兴趣的同学加入我们！
+We are actively recruiting PhD students, master's students, postdocs, and research interns. We welcome students interested in AI safety, intelligent information retrieval, natural language processing, and related fields to join us!
 {{< /lead >}}

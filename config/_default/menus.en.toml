@@ -15,14 +15,15 @@ pageRef = "posts"
 weight = 10
 
 [[main]]
-name = "Resources"
-pageRef = "resources"
-weight = 10
+name = "Publications"
+pageRef = "publications"
+weight = 20
 
 [[main]]
-name = "Research Projects"
-pageRef = "research_projects"
+name = "Resources"
+pageRef = "resources"
 weight = 30
+
 
 [[main]]
 name = "Team"
@@ -45,11 +46,6 @@ action = "locale"
 name = "Lab Activities"
 pageRef = "lab_activities"
 weight = 30
-
-[[footer]]
-name = "Resources"
-pageRef = "resources"
-weight = 40
 
 [[footer]]
 name = "Conference Deadlines"

@@ -1,117 +1,179 @@
 ---
-title: "资源共享"
-description: "Datasets, Benchmarks and Tools from KILab"
+title: "Resources"
+description: "Research Projects, Datasets, Benchmarks and Tools from KILab"
+cascade:
+    showSummary: true
 ---
 
-我们致力于推动知识智能领域的开放研究，向学术界和产业界共享我们的数据集、基准测试和工具。
+We are committed to promoting open research in the field of knowledge intelligence, sharing our research projects, datasets, benchmarks, and tools with the academic and industrial communities.
 
 ---
 
-## 数据集 (Datasets)
+## Research Projects
 
-### 知识图谱数据集
+Our research focuses on cutting-edge fields including trustworthy artificial intelligence, intelligent information retrieval, natural language processing, and knowledge intelligence applications, committed to promoting the deep integration of theoretical innovation and practical applications.
+
+### {{< icon "check" >}} AI Security and Trust
+
+In today's rapidly evolving AI landscape, ensuring the security and trustworthiness of AI systems is crucial. We conduct in-depth research in this frontier field:
+
+**Core Research Areas:**
+- **Trustworthy AI Algorithms**: Design AI algorithms with robustness, explainability, and fairness
+- **AIGC Security**: Research on security risks and protection mechanisms for AI-generated content
+- **AI Model Reliability**: Enhance the stability of deep learning models under adversarial attacks
+- **Privacy-Preserving AI**: Develop federated learning and differential privacy technologies to protect user privacy
+
+### {{< icon "search" >}} Intelligent Information Retrieval
+
+Information retrieval is the key technology connecting user needs with massive information. We focus on personalized and intelligent information retrieval system research:
+
+**Core Research Areas:**
+- **Recommendation Systems**: Deep learning-based personalized recommendation algorithms
+- **User Modeling and Understanding**: Multi-dimensional user profiling and behavior prediction
+- **Knowledge Acquisition**: Automatic acquisition of structured knowledge from multi-source heterogeneous data
+- **Search Technologies**: Next-generation intelligent search engine technologies
+
+### {{< icon "comment" >}} Natural Language Processing
+
+Natural language processing is the core technology for achieving intelligent human-machine interaction. We conduct cutting-edge research in large-scale language models and multimodal understanding:
+
+**Core Research Areas:**
+- **Large Language Models (LLM)**: Optimization and application of pre-trained models
+- **Multimodal Knowledge Extraction**: Knowledge extraction fusing visual and linguistic information
+- **Knowledge Representation Learning**: Vectorized representation and reasoning of textual knowledge
+- **Dialogue Systems**: Knowledge-driven intelligent dialogue technologies
+
+### {{< icon "globe" >}} Spatial-Temporal Analysis and Prediction
+
+Spatial-temporal data analysis has important application value in intelligent transportation, urban computing, and other fields:
+
+**Core Research Areas:**
+- **Location-aware Social Network Analysis**: Geographic location-based social behavior modeling
+- **Real-time Push Algorithms**: Spatial-temporal aware information push systems
+- **Traffic Data Analysis**: Data mining and prediction for intelligent transportation systems
+- **Time Series Prediction**: Deep learning prediction models for multivariate time series
+
+### {{< icon "lightbulb" >}} Knowledge Intelligence Applications
+
+Apply knowledge intelligence technologies to real industry scenarios, solving complex real-world problems:
+
+**Core Research Areas:**
+- **Intelligent Finance**: Knowledge graph-based financial risk control and investment decision-making
+- **Intelligent Transportation**: Traffic flow optimization and intelligent navigation systems
+- **Recommendation System Applications**: Industrial applications in e-commerce, content recommendation, and other fields
+- **Multimedia Content Understanding**: Intelligent analysis and understanding of videos and images
+
+{{< alert "light-bulb" >}}
+**Research Project Support**: The laboratory leads multiple important research projects including National Natural Science Foundation, Guangdong Natural Science Foundation, CCF-DiDi GAIA Young Scholar Program, and others.
+{{< /alert >}}
+
+---
+
+## Datasets
+
+### Knowledge Graph Datasets
 
 #### {{< icon "circle-info" >}} CN-Academic-KG
-**中文学术知识图谱**
+**Chinese Academic Knowledge Graph**
 
 {{< figure src="/images/dataset_academic.png" alt="CN Academic Knowledge Graph" width="300" class="rounded" >}}
 
-包含100万+中文学术实体和关系的大规模知识图谱，涵盖计算机科学、数学、物理等多个学科领域。
+A large-scale knowledge graph containing over 1 million Chinese academic entities and relationships, covering multiple disciplines including computer science, mathematics, and physics.
 
 {{< button href="https://github.com/KILab/CN-Academic-KG" >}}{{< icon "github" >}} GitHub{{< /button >}} 
-{{< button href="/papers/cn_academic_kg_2024.pdf" >}}{{< icon "pencil" >}} 论文{{< /button >}}
+{{< button href="/papers/cn_academic_kg_2024.pdf" >}}{{< icon "pencil" >}} Paper{{< /button >}}
 
 #### {{< icon "circle-info" >}} MultiModal-KG
-**多模态知识图谱**
+**Multimodal Knowledge Graph**
 
 {{< figure src="/images/dataset_multimodal.png" alt="MultiModal Knowledge Graph" width="300" class="rounded" >}}
 
-融合文本、图像和数值信息的多模态知识图谱，包含50万+实体和200万+三元组。
+A multimodal knowledge graph that integrates textual, visual, and numerical information, containing over 500K entities and 2M+ triples.
 
 {{< button href="https://github.com/KILab/MultiModal-KG" >}}{{< icon "github" >}} GitHub{{< /button >}} 
-{{< button href="/papers/multimodal_kg_2024.pdf" >}}{{< icon "pencil" >}} 论文{{< /button >}}
+{{< button href="/papers/multimodal_kg_2024.pdf" >}}{{< icon "pencil" >}} Paper{{< /button >}}
 
-### 自然语言处理数据集
+### Natural Language Processing Datasets
 
 #### {{< icon "comment" >}} FewShot-RE-ZH
-**中文少样本关系抽取**
+**Chinese Few-Shot Relation Extraction**
 
 {{< figure src="/images/dataset_fewshot.png" alt="Few-Shot Relation Extraction Dataset" width="300" class="rounded" >}}
 
-专为中文少样本关系抽取设计的数据集，包含20个关系类别，每类仅有1-5个标注样本。
+A dataset specifically designed for Chinese few-shot relation extraction, containing 20 relation categories with only 1-5 annotated samples per category.
 
 {{< button href="https://github.com/KILab/FewShot-RE-ZH" >}}{{< icon "github" >}} GitHub{{< /button >}} 
-{{< button href="/papers/fewshot_re_2023.pdf" >}}{{< icon "pencil" >}} 论文{{< /button >}}
+{{< button href="/papers/fewshot_re_2023.pdf" >}}{{< icon "pencil" >}} Paper{{< /button >}}
 
 #### {{< icon "comment" >}} Dialogue-KG
-**对话知识图谱**
+**Dialogue Knowledge Graph**
 
 {{< figure src="/images/dataset_dialogue.png" alt="Dialogue Knowledge Graph" width="300" class="rounded" >}}
 
-基于真实对话构建的知识图谱，用于评估对话系统的知识推理能力。
+A knowledge graph built from real dialogues, used to evaluate the knowledge reasoning capabilities of dialogue systems.
 
 {{< button href="https://github.com/KILab/Dialogue-KG" >}}{{< icon "github" >}} GitHub{{< /button >}} 
-{{< button href="/papers/dialogue_kg_2023.pdf" >}}{{< icon "pencil" >}} 论文{{< /button >}}
+{{< button href="/papers/dialogue_kg_2023.pdf" >}}{{< icon "pencil" >}} Paper{{< /button >}}
 
 ---
 
-## 基准测试 (Benchmarks)
+## Benchmarks
 
 ### KG-Benchmark Suite
 
 {{< figure src="/images/benchmark_overview.png" alt="KG Benchmark Suite" width="600" class="rounded" >}}
 
-我们开发了一套综合的知识图谱基准测试套件，涵盖多个核心任务：
+We have developed a comprehensive knowledge graph benchmark suite covering multiple core tasks:
 
-#### {{< icon "circle-info" >}} 实体链接 (Entity Linking)
-- **数据集**: 5个领域，10万+标注样本  
-- **评估指标**: Precision, Recall, F1-Score  
-- **基线模型**: 10个SOTA模型对比
+#### {{< icon "circle-info" >}} Entity Linking
+- **Dataset**: 5 domains, 100K+ annotated samples  
+- **Evaluation Metrics**: Precision, Recall, F1-Score  
+- **Baseline Models**: 10 SOTA model comparisons
 
-#### {{< icon "link" >}} 关系抽取 (Relation Extraction)
-- **数据集**: 中英双语，50个关系类型  
-- **评估指标**: Micro/Macro F1, AUC  
-- **基线模型**: 15个经典和最新模型
+#### {{< icon "link" >}} Relation Extraction
+- **Dataset**: Bilingual (Chinese-English), 50 relation types  
+- **Evaluation Metrics**: Micro/Macro F1, AUC  
+- **Baseline Models**: 15 classic and state-of-the-art models
 
-#### {{< icon "lightbulb" >}} 知识推理 (Knowledge Reasoning)
-- **数据集**: 多跳推理，复杂查询  
-- **评估指标**: MRR, Hits@K  
-- **基线模型**: 8个图神经网络模型
+#### {{< icon "lightbulb" >}} Knowledge Reasoning
+- **Dataset**: Multi-hop reasoning, complex queries  
+- **Evaluation Metrics**: MRR, Hits@K  
+- **Baseline Models**: 8 graph neural network models
 
 {{< button href="https://github.com/KILab/KG-Benchmark-Suite" >}}{{< icon "github" >}} GitHub{{< /button >}} 
-{{< button href="https://benchmark.kilab.org" >}}{{< icon "globe" >}} 在线评估{{< /button >}}
+{{< button href="https://benchmark.kilab.org" >}}{{< icon "globe" >}} Online Evaluation{{< /button >}}
 
 ---
 
-## 开源工具 (Tools)
+## Open Source Tools
 
 ### KG-Toolkit
 
 {{< alert "code-bracket" >}}
-**一站式知识图谱工具包**  
-集成了知识抽取、推理、可视化等功能的Python工具包
+**All-in-One Knowledge Graph Toolkit**  
+A Python toolkit that integrates knowledge extraction, reasoning, and visualization capabilities
 {{< /alert >}}
 
 ```python
-# 安装
+# Installation
 pip install kg-toolkit
 
-# 使用示例
+# Usage Example
 from kg_toolkit import KnowledgeGraph, EntityExtractor
 
-# 创建知识图谱
+# Create knowledge graph
 kg = KnowledgeGraph()
 
-# 实体抽取
+# Entity extraction
 extractor = EntityExtractor(model='bert-base-chinese')
-entities = extractor.extract("张三是中山大学的教授")
+entities = extractor.extract("Zhang San is a professor at Sun Yat-sen University")
 ```
 
-**功能特性**:
-- 🚀 多种预训练模型支持
-- 📊 可视化知识图谱
-- 🔧 灵活的API接口
-- 📚 详细的文档和教程
+**Key Features**:
+- 🚀 Multiple pre-trained model support
+- 📊 Knowledge graph visualization
+- 🔧 Flexible API interface
+- 📚 Detailed documentation and tutorials
 
 {{< button href="https://github.com/KILab/KG-Toolkit" >}}{{< icon "github" >}} GitHub{{< /button >}} 
 {{< button href="https://pypi.org/project/kg-toolkit/" >}}{{< icon "circle-info" >}} PyPI{{< /button >}}
@@ -119,51 +181,51 @@ entities = extractor.extract("张三是中山大学的教授")
 ### NLP-Utils
 
 {{< alert "wrench-screwdriver" >}}
-**自然语言处理工具集**  
-包含文本预处理、特征提取、模型评估等实用功能
+**Natural Language Processing Utilities**  
+Contains practical functions for text preprocessing, feature extraction, and model evaluation
 {{< /alert >}}
 
-**主要模块**:
-- 中文文本分词和词性标注
-- 命名实体识别
-- 关系抽取
-- 文本分类
-- 语义相似度计算
+**Main Modules**:
+- Chinese text segmentation and POS tagging
+- Named entity recognition
+- Relation extraction
+- Text classification
+- Semantic similarity computation
 
 {{< button href="https://github.com/KILab/NLP-Utils" >}}{{< icon "github" >}} GitHub{{< /button >}}
 
 ---
 
-## 教程和文档 (Tutorials)
+## Tutorials and Documentation
 
-### 入门教程
+### Getting Started Tutorials
 
-#### {{< icon "circle-info" >}} 知识图谱基础
-适合初学者的知识图谱入门教程，包含理论基础和实践操作。
-{{< button href="/tutorials/kg-basics" >}}开始学习{{< /button >}}
+#### {{< icon "circle-info" >}} Knowledge Graph Fundamentals
+A beginner-friendly knowledge graph tutorial covering theoretical foundations and practical operations.
+{{< button href="/tutorials/kg-basics" >}}Start Learning{{< /button >}}
 
-#### {{< icon "lightbulb" >}} 图神经网络实战
-深入浅出地介绍图神经网络的原理和实现。
-{{< button href="/tutorials/gnn-tutorial" >}}开始学习{{< /button >}}
+#### {{< icon "lightbulb" >}} Graph Neural Networks in Practice
+An accessible introduction to the principles and implementation of graph neural networks.
+{{< button href="/tutorials/gnn-tutorial" >}}Start Learning{{< /button >}}
 
-#### {{< icon "translate" >}} NLP流水线
-从数据预处理到模型部署的完整NLP项目教程。
-{{< button href="/tutorials/nlp-pipeline" >}}开始学习{{< /button >}}
+#### {{< icon "translate" >}} NLP Pipeline
+A complete NLP project tutorial from data preprocessing to model deployment.
+{{< button href="/tutorials/nlp-pipeline" >}}Start Learning{{< /button >}}
 
-### 技术博客
+### Technical Blog
 
-定期更新技术博客，分享最新研究成果和技术见解：
+Regularly updated technical blog sharing latest research findings and technical insights:
 
-- [知识图谱在推荐系统中的应用](./blog/kg-in-recommender-systems)
-- [少样本学习最新进展](./blog/few-shot-learning-advances)
-- [多模态AI的发展趋势](./blog/multimodal-ai-trends)
+- [Applications of Knowledge Graphs in Recommender Systems](./blog/kg-in-recommender-systems)
+- [Recent Advances in Few-Shot Learning](./blog/few-shot-learning-advances)
+- [Development Trends in Multimodal AI](./blog/multimodal-ai-trends)
 
 ---
 
 {{< alert "heart" >}}
-**贡献指南**: 欢迎社区贡献代码、报告问题或提出改进建议！请查看各项目的 CONTRIBUTING.md 文件了解详情。
+**Contribution Guidelines**: We welcome community contributions including code, issue reports, and improvement suggestions! Please check the CONTRIBUTING.md file in each project for details.
 {{< /alert >}}
 
 {{< alert "envelope" >}}
-**联系我们**: 如需技术支持或合作，请发邮件至 [contact@kilab.org](mailto:contact@kilab.org)
+**Contact Us**: For technical support or collaboration, please email [contact@kilab.org](mailto:contact@kilab.org)
 {{< /alert >}}

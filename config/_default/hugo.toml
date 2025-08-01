@@ -7,7 +7,7 @@ baseURL = "https://kilab.github.io/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-summaryLength = 0
+summaryLength = 10
 
 [pagination]
 pagerSize = 10
