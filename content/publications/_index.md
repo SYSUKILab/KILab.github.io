@@ -1,14 +1,13 @@
 ---
-title: "Publications"
+title: "Recent Publications"
 description: "Publications from Knowledge Intelligence Lab"
-# cascade:
-#     showDate: false
+layout: "simple"
+
 ---
 
 Professor Lyu has been engaged in research in intelligent information retrieval, natural language processing, and trustworthy artificial intelligence for many years, publishing over 30 academic papers in CCF A/B journals and conferences in recent years.
 
 The following are representative research achievements from our laboratory:
-
 
 ### 2025
 

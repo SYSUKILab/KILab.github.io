@@ -2,9 +2,6 @@
 
 description: "Welcome to Knowledge Intelligence Lab (KILab) at Sun Yat-sen University"
 ---
-{{< alert "lightbulb" >}}
-Congrats to **Renyang Liu**! Our collaborative work, "D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance", has been accepted by **ACM MM 2025**.
-{{< /alert >}}
 
 
 Welcome to the **Knowledge Intelligence Lab (KILab)** at Sun Yat-sen University! 
@@ -14,6 +11,9 @@ We are dedicated to advancing cutting-edge research in AI safety, intelligent in
 Our research focuses on the following core areas: 
 {{< figure src="/images/research_framework.png" alt="KILab Research Framework" caption="KILab Research Framework" >}}
 
+{{< alert "lightbulb" >}}
+Congrats to **Renyang Liu**! Our collaborative work, "D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance", has been accepted by **ACM MM 2025**.
+{{< /alert >}}
 
 
 ## Featured Projects

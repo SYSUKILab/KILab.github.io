@@ -18,16 +18,6 @@ cascade:
 - **Email**: lvzy7@mail.sysu.edu.cn
 - **Homepage**: [Google Scholar](https://scholar.google.com/citations?user=1D2467cAAAAJ&hl=en) | [Faculty Page](https://scst.sysu.edu.cn/members/members01/1410204.htm) | [Personal Website](https://sites.google.com/site/crystalziyulu/home)
 
-#### Research Interests
-- **AI Safety**: Trustworthy AI algorithms, AI-generated content (AIGC) security
-- **Intelligent Information Retrieval**: Recommender systems, user modeling and understanding, knowledge acquisition
-- **Natural Language Processing**: Large language models (LLM), multimodal knowledge extraction (vision-language)
-
-#### Academic Services
-- **Professional Organizations**: Executive Committee Member of CCF NLP Technical Committee, Committee Member of CIPS Information Retrieval Committee
-- **Conference PC**: AAAI(2019-2024), ACL(2020-2023), EMNLP(2021-2023), MM(2023), etc.
-- **Journal Reviewer**: TKDE, TNNLS, Pattern Recognition, and other top-tier journals
-
 ---
 
 ## Students
