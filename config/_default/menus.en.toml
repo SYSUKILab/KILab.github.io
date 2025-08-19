@@ -20,12 +20,6 @@ pageRef = "publications"
 weight = 20
 
 [[main]]
-name = "Resources"
-pageRef = "resources"
-weight = 30
-
-
-[[main]]
 name = "Team"
 pageRef = "team"
 weight = 30
@@ -44,7 +38,7 @@ action = "locale"
 
 [[footer]]
 name = "Lab Activities"
-pageRef = "lab_activities"
+pageRef = "activities"
 weight = 30
 
 [[footer]]

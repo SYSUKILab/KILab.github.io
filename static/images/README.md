@@ -1,6 +1,42 @@
-# 图片资源说明
+# Images Directory
 
-这个文件夹包含网站所需的各种图片资源。
+This directory contains images used on the website.
+
+## Team Member Photos
+
+To display team member photos, add the following files:
+
+### Faculty
+- `prof_lyu.jpg` - Professor Ziyu Lyu photo (recommended size: 200x200 pixels)
+
+### PhD Students
+- `pengyu_qi.jpg` - Pengyu Qi photo (recommended size: 150x150 pixels)
+- `jin_zeng.jpg` - Jin Zeng photo (recommended size: 150x150 pixels)  
+- `wenbin_guo.jpg` - Wenbin Guo photo (recommended size: 150x150 pixels)
+
+### Master Students
+- `yuhan_hu.jpg` - Yuhan Hu photo (recommended size: 150x150 pixels)
+- `anqi_liu.jpg` - Anqi Liu photo (recommended size: 150x150 pixels)
+
+## Project Logos
+
+To display project logos on the homepage, add the following files:
+
+- `dani-logo.png` - Logo for DANI dataset project
+- `llm-security-logo.png` - Logo for LLM Security Framework project  
+- `fairwork-logo.png` - Logo for FairWork project
+
+## Image Requirements
+
+- Format: JPG or PNG preferred
+- Faculty photos: 200x200 pixels recommended
+- Student photos: 150x150 pixels recommended  
+- Square aspect ratio preferred for profile photos
+- Project logos: 80x80 pixels recommended
+
+## Usage
+
+Images in this directory are accessible at `/images/filename.ext` from the website.
 
 ## 需要添加的图片
 

@@ -1,6 +1,7 @@
 ---
-title: "DJudge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance"
+title: "D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance"
 date: 2025-07-30
+
 ---
 
 This paper introduces DJudge, a comprehensive benchmark for evaluating the gap between AI-generated and natural images across multiple dimensions including quality, semantic alignment, and human perception.

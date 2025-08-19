@@ -1,8 +1,8 @@
 ---
 title: "Resources"
 description: "Research Projects, Datasets, Benchmarks and Tools from KILab"
-cascade:
-    showSummary: true
+layout: "simple"
+
 ---
 
 We are committed to promoting open research in the field of knowledge intelligence, sharing our research projects, datasets, benchmarks, and tools with the academic and industrial communities.

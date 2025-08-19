@@ -1,6 +1,6 @@
 ---
 title: "🎊 Official Lab Website Launched"
-date: 2025-07-31
+date: 2025-01-01
 draft: false
 description: "KILab's official website has been fully upgraded, showcasing the latest research achievements and team highlights"
 tags: ["announcement", "website"]

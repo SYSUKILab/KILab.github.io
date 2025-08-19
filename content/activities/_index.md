@@ -1,9 +1,9 @@
 ---
 title: "Lab Activities"
 description: "KILab Activities and Events"
-draft: false
 cascade:
     showSummary: true
+    showDate: false
 ---
 
 {{< alert icon="construction" >}}

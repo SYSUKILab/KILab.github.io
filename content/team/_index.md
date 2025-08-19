@@ -5,12 +5,12 @@ cascade:
     showTableOfContents: true
 ---
 
-## Faculty Members
+<!-- ## Faculty Members -->
 
 ### Professor Ziyu Lyu
 **Associate Professor (Ph.D. Supervisor)**
 
-<!-- {{< figure src="/images/prof_lyu.jpg" alt="Prof. Ziyu Lyu" width="200" class="rounded" >}} -->
+{{< figure src="/images/prof_lyu.jpg" alt="Prof. Ziyu Lyu" width="200" class="rounded" >}}
 
 - **Position**: Associate Professor, Ph.D. Supervisor
 - **Affiliation**: School of Cyber Science and Technology, Sun Yat-sen University
@@ -18,24 +18,10 @@ cascade:
 - **Email**: lvzy7@mail.sysu.edu.cn
 - **Homepage**: [Google Scholar](https://scholar.google.com/citations?user=1D2467cAAAAJ&hl=en) | [Faculty Page](https://scst.sysu.edu.cn/members/members01/1410204.htm) | [Personal Website](https://sites.google.com/site/crystalziyulu/home)
 
-#### Education
-- **2012.09-2016.11**: Ph.D. in Computer Science, The University of Hong Kong
-- **2010.09-2012.06**: M.S. in Software Engineering, Dalian University of Technology
-- **2006.09-2010.06**: B.S. in Software Engineering, Dalian University of Technology
-
-#### Professional Experience
-- **2023.09-Present**: Associate Professor, School of Cyber Science and Technology, Sun Yat-sen University
-- **2022.01-2023.08**: Associate Research Fellow, Shenzhen Institute of Advanced Technology, CAS
-- **2019.10-2022.01**: Assistant Research Fellow, Shenzhen Institute of Advanced Technology, CAS
-- **2017.07-2019.09**: Lecturer, School of Information, Central University of Finance and Economics
-- **2016.11-2017.06**: Research Associate, Department of Computing, The Hong Kong Polytechnic University
-
 #### Research Interests
 - **AI Safety**: Trustworthy AI algorithms, AI-generated content (AIGC) security
 - **Intelligent Information Retrieval**: Recommender systems, user modeling and understanding, knowledge acquisition
 - **Natural Language Processing**: Large language models (LLM), multimodal knowledge extraction (vision-language)
-- **Spatio-Temporal Analysis**: Location-aware social network analysis, real-time recommendation algorithms, traffic data analysis
-- **Knowledge Intelligence Applications**: Smart finance, intelligent transportation
 
 #### Academic Services
 - **Professional Organizations**: Executive Committee Member of CCF NLP Technical Committee, Committee Member of CIPS Information Retrieval Committee
@@ -47,27 +33,47 @@ cascade:
 ## Students
 #### Pengyu Qi
 {{< badge >}}PhD Students{{< /badge >}}  
+
+{{< figure src="/images/pengyu_qi.jpg" alt="Pengyu Qi" width="150" class="rounded" >}}
+
 - **Research Areas**: AI Safety
+- **Research Interests**: Large language model security, adversarial robustness, trustworthy AI algorithm design and verification
 - **Duration**: 2024.09 - Present
 
 #### Jin Zeng
 {{< badge >}}PhD Students{{< /badge >}}  
+
+{{< figure src="/images/jin_zeng.png" alt="Jin Zeng" width="150" class="rounded" >}}
+
 - **Research Areas**: Recommender Systems
+- **Research Interests**: Fairness and explainability in recommendation systems, user modeling and behavior understanding, personalized information retrieval
 - **Duration**: 2025.09 - Present
 
 #### Wenbin Guo
 {{< badge >}}PhD Students{{< /badge >}}  
+
+{{< figure src="/images/wenbin_guo.jpg" alt="Wenbin Guo" width="150" class="rounded" >}}
+
 - **Research Areas**: AI Safety
+- **Research Interests**: Multi-Agent system security, agent collaboration safety, distributed AI system trustworthiness
 - **Duration**: 2025.09 - Present
 
 #### Yuhan Hu
 {{< badge >}}Master Students{{< /badge >}}  
+
+{{< figure src="/images/yuhan_hu.png" alt="Yuhan Hu" width="150" class="rounded" >}}
+
 - **Research Areas**: Recommender Systems
+- **Research Interests**: Recommendation algorithm optimization, knowledge graph-enhanced recommendation, explainable recommendation systems
 - **Duration**: 2024.09 - Present
 
 #### Anqi Liu
 {{< badge >}}Master Students{{< /badge >}}  
-- **Research Areas**: Recommender Systems
+
+{{< figure src="/images/anqi_liu.png" alt="Anqi Liu" width="150" class="rounded" >}}
+
+- **Research Areas**: Recommender Systems  
+- **Research Interests**: Recommendation algorithm optimization, knowledge graph-enhanced recommendation, explainable recommendation systems
 - **Duration**: 2025.09 - Present
 
 <!-- ### Research Interns
