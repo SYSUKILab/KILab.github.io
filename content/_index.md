@@ -1,8 +1,5 @@
 ---
-
 description: "Welcome to Knowledge Intelligence Lab (KILab) at Sun Yat-sen University"
-
-
 ---
 
 {{< alert "circle-info" >}}
@@ -75,6 +72,12 @@ Congrats to **Renyang Liu**! Our collaborative work, "D-Judge: How Far Are We? A
 {{< /alert >}}
 
 
+
+{{< lead >}}
+We are actively recruiting PhD students, master's students, postdocs, and research interns. We welcome students interested in AI safety, intelligent information retrieval, natural language processing, and related fields to join us!
+{{< /lead >}}
+
+
 <style>
   .project-card:hover {
     transform: translateY(-2px);
@@ -122,7 +125,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
-{{< lead >}}
-We are actively recruiting PhD students, master's students, postdocs, and research interns. We welcome students interested in AI safety, intelligent information retrieval, natural language processing, and related fields to join us!
-{{< /lead >}}

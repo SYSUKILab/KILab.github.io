@@ -19,7 +19,7 @@
       <link>http://localhost:1313/posts/djudge/</link>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/djudge/</guid>
-      <description>&lt;p&gt;This paper introduces DJudge, a comprehensive benchmark for evaluating the gap between AI-generated and natural images across multiple dimensions including quality, semantic alignment, and human perception.&lt;/p&gt;</description>
+      <description>&lt;p&gt;AI-generated images are more visually stunning than ever, but how do they really stack up against natural, real-world photos? We introduce D-Judge, a large-scale benchmark designed to systematically investigate and quantify the discrepancies that remain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🎊 Official Lab Website Launched</title>
@@ -40,13 +40,6 @@
       <link>http://localhost:1313/lab_activities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/lab_activities/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/research_projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research_projects/</guid>
       <description></description>
     </item>
     <item>

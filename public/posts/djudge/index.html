@@ -72,7 +72,7 @@
     name="description"
     content="
       
-        This paper introduces DJudge, a comprehensive benchmark for evaluating the gap between AI-generated and natural images across multiple dimensions including quality, semantic alignment, and human perception.
+        AI-generated images are more visually stunning than ever, but how do they really stack up against natural, real-world photos? We introduce D-Judge, a large-scale benchmark designed to systematically investigate and quantify the discrepancies that remain.
       
     "
   />
@@ -99,7 +99,7 @@
   <meta property="og:url" content="http://localhost:1313/posts/djudge/">
   <meta property="og:site_name" content="KILab🚀">
   <meta property="og:title" content="D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance">
-  <meta property="og:description" content="This paper introduces DJudge, a comprehensive benchmark for evaluating the gap between AI-generated and natural images across multiple dimensions including quality, semantic alignment, and human perception.">
+  <meta property="og:description" content="AI-generated images are more visually stunning than ever, but how do they really stack up against natural, real-world photos? We introduce D-Judge, a large-scale benchmark designed to systematically investigate and quantify the discrepancies that remain.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -111,7 +111,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/posts/djudge/feature.png">
   <meta name="twitter:title" content="D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance">
-  <meta name="twitter:description" content="This paper introduces DJudge, a comprehensive benchmark for evaluating the gap between AI-generated and natural images across multiple dimensions including quality, semantic alignment, and human perception.">
+  <meta name="twitter:description" content="AI-generated images are more visually stunning than ever, but how do they really stack up against natural, real-world photos? We introduce D-Judge, a large-scale benchmark designed to systematically investigate and quantify the discrepancies that remain.">
 
   
   <script type="application/ld+json">
@@ -122,7 +122,7 @@
     "name": "D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance",
     "headline": "D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance",
     
-    "abstract": "\u003cp\u003eThis paper introduces DJudge, a comprehensive benchmark for evaluating the gap between AI-generated and natural images across multiple dimensions including quality, semantic alignment, and human perception.\u003c\/p\u003e",
+    "abstract": "\u003cp\u003eAI-generated images are more visually stunning than ever, but how do they really stack up against natural, real-world photos? We introduce D-Judge, a large-scale benchmark designed to systematically investigate and quantify the discrepancies that remain.\u003c\/p\u003e",
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/posts\/djudge\/",
     "author" : {
@@ -138,7 +138,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "153"
+    "wordCount": "954"
   }
   </script>
     
@@ -451,10 +451,277 @@
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <p>This paper introduces DJudge, a comprehensive benchmark for evaluating the gap between AI-generated and natural images across multiple dimensions including quality, semantic alignment, and human perception.</p>
-<p><strong>Authors</strong>: Renyang Liu, <strong>Ziyu Lyu</strong>, Wei Zhou, See-Kiong Ng</p>
-<h2 id="abstract" class="relative group">Abstract <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#abstract" aria-label="Anchor">#</a></span></h2><p>In Artificial Intelligence Generated Content (AIGC), distinguishing AI-synthesized images from natural ones remains a key challenge. Despite advancements in generative models, significant discrepancies persist. To systematically investigate and quantify these discrepancies, we introduce an AI-Natural Image Discrepancy accessing benchmark (D-Judge) aimed at addressing the critical question: \textit{how far are AI-generated images (AIGIs) from truly realistic images?} We construct D-ANI, a dataset with 5,000 natural images and over 440,000 AIGIs generated by nine models using Text-to-Image (T2I), Image-to-Image (I2I), and Text and Image-to-Image (TI2I) prompts. Our framework evaluates the discrepancy across five dimensions: naive image quality, semantic alignment, aesthetic appeal, downstream applicability, and human validation. Results reveal notable gaps, emphasizing the importance of aligning metrics with human judgment.</p>
+        <p>AI-generated images are more visually stunning than ever, but how do they really stack up against natural, real-world photos? We introduce D-Judge, a large-scale benchmark designed to systematically investigate and quantify the discrepancies that remain.</p>
+<p>Despite the rapid progress of generative models, AI-generated images (AIGIs) often fall short of real-world application standards. Existing evaluation methods provide an incomplete picture. They often focus on a narrow set of metrics like perceptual quality or text alignment, use small datasets, and primarily consider simple text-to-image prompts, neglecting more complex multimodal guidance.</p>
+<div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
+  <span class="pe-3 text-primary-400">
+    <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+</span>
+  </span>
+  <span class="dark:text-neutral-300">Key Problem: There&rsquo;s no systematic, comprehensive way to measure the fine-grained differences between AI-generated and natural images, which is crucial for understanding model limitations and driving meaningful progress.</span>
+</div>
 
+<p><a
+  class="inline-block !rounded-md bg-primary-600 px-4 py-1 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href="https://arxiv.org/pdf/2412.17632"
+  target="_blank"
+  
+  role="button"
+>
+  
+📄 Paper
+
+</a>
+
+<a
+  class="inline-block !rounded-md bg-primary-600 px-4 py-1 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href="https://github.com/ryliu68/DJudge"
+  target="_blank"
+  
+  role="button"
+>
+  
+📁 Code
+
+</a>
+
+<a
+  class="inline-block !rounded-md bg-primary-600 px-4 py-1 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href="https://huggingface.co/datasets/Renyang/DANI"
+  target="_blank"
+  
+  role="button"
+>
+  
+🤗 Dataset
+
+</a>
+</p>
+<p>Our work introduces two core contributions to tackle this challenge:</p>
+<p>The D-ANI Dataset: A massive new multimodal dataset featuring over 440,000 AI-generated images from 9 representative models (from GANs to DALL-E 3). It&rsquo;s the first to include images generated from unimodal (Text-to-Image, Image-to-Image) and multimodal (Text-and-Image-to-Image) prompts.</p>
+<p>The D-Judge Framework: A fine-grained evaluation framework that assesses discrepancies across five crucial dimensions: naive visual quality, semantic alignment, aesthetic appeal, downstream task applicability, and coordinated human validation.</p>
+<p>Method &amp; System</p>
+<ol>
+<li>Framework Overview
+D-Judge systematically compares AI-generated images with their natural counterparts. For a given prompt, we generate an AIGI and pair it with a real reference image. The framework then assesses the &ldquo;Discrepancy Rate&rdquo; (DR) between the two across our five dimensions, integrating both automated metrics and human judgment for a holistic view.</li>
+</ol>
+
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="http://localhost:1313/posts/djudge/feature_hu_8f2a85109222c184.webp 330w,http://localhost:1313/posts/djudge/feature_hu_3c8c6fabbbc4faef.webp 660w
+            
+              ,http://localhost:1313/posts/djudge/feature_hu_76ab6c4f9776138f.webp 1024w
+            
+            
+              ,http://localhost:1313/posts/djudge/feature_hu_f24285a555a5e4a0.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="3064"
+        height="1186"
+        class="mx-auto my-0 rounded-md"
+        alt="D-Judge Framework"
+        loading="lazy" decoding="async"
+        
+          src="http://localhost:1313/posts/djudge/feature_hu_faa13a251d42a23f.png" srcset="http://localhost:1313/posts/djudge/feature_hu_23519f3a6d730d7b.png 330w,http://localhost:1313/posts/djudge/feature_hu_faa13a251d42a23f.png 660w
+          
+            ,http://localhost:1313/posts/djudge/feature_hu_98b8db9b1db173c.png 1024w
+          
+          
+            ,http://localhost:1313/posts/djudge/feature_hu_238be55adee6fabf.png 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    <figcaption class="text-center">Figure 1. The D-Judge framework evaluates discrepancies across five dimensions, complemented by human validation.</figcaption>
+  </figure>
+
+
+<ol start="2">
+<li>The D-ANI Dataset
+<span class="flex">
+  <span
+    class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Our Massive Dataset
+  </span>
+</span>
+
+</li>
+</ol>
+<p>At the heart of our benchmark is the D-ANI (Distinguishing Natural and AI-generated) dataset. We started with 5,000 high-quality natural images from the MS COCO dataset, each with at least five captions. We then used these text-image pairs to prompt nine different generative models to create a diverse collection of over 440,000 AIGIs.</p>
+<p>Models: Includes GANs (GALIP, DF-GAN), various Stable Diffusion versions (v1.4, v1.5, v2.1, XL), Versatile Diffusion, and OpenAI&rsquo;s DALL-E 2 &amp; 3.</p>
+<p>Prompts: Uniquely covers Text-to-Image (T2I), Image-to-Image (I2I), and Text-and-Image-to-Image (TI2I) guidance.</p>
+
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="http://localhost:1313/posts/djudge/dataset_hu_dd66b967167b2d6c.webp 330w,http://localhost:1313/posts/djudge/dataset_hu_3baabf1d24f23d87.webp 660w
+            
+              ,http://localhost:1313/posts/djudge/dataset_hu_cc30ad64720c3c01.webp 1024w
+            
+            
+              ,http://localhost:1313/posts/djudge/dataset_hu_58f96f9065691657.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="2000"
+        height="1106"
+        class="mx-auto my-0 rounded-md"
+        alt="D-ANI Dataset Creation"
+        loading="lazy" decoding="async"
+        
+          src="http://localhost:1313/posts/djudge/dataset_hu_13b72fae7c044474.png" srcset="http://localhost:1313/posts/djudge/dataset_hu_87acf833389d6073.png 330w,http://localhost:1313/posts/djudge/dataset_hu_13b72fae7c044474.png 660w
+          
+            ,http://localhost:1313/posts/djudge/dataset_hu_887c9472889446ba.png 1024w
+          
+          
+            ,http://localhost:1313/posts/djudge/dataset_hu_fc23b07c985f2ce8.png 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    <figcaption class="text-center">Figure 2. Our D-ANI dataset includes 440,000+ images from 9 models, guided by three types of prompts.</figcaption>
+  </figure>
+
+
+<ol start="3">
+<li>The 5-Dimension Evaluation
+<span class="flex">
+  <span
+    class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    Our Evaluation Framework
+  </span>
+</span>
+
+</li>
+</ol>
+<p>D-Judge assesses the gap between AI and reality from five perspectives:</p>
+<p>Naive Image Quality: How good is the image on a technical level? We measure this at three granularities:</p>
+<p>Structure-level: Low-level visual similarity using metrics like SSIM and LPIPS.</p>
+<p>Frame-level: Perceptual quality from a high-level view using metrics like BRISQUE and PIQE.</p>
+<p>Distribution-level: Holistic content differences across the entire dataset using FID and Inception Score.</p>
+<p>Semantic Alignment: Does the image match the prompt? We use CLIP Score to measure the consistency between the generated image and the guiding prompt(s).</p>
+<p>Aesthetic Appeal: Is the image visually pleasing? We use models like NIMA and LAION-AES to predict the artistic quality and attractiveness.</p>
+<p>Downstream Applicability: Can the image be used in other AI tasks? We test its utility in</p>
+<p>image recognition, object segmentation, and Visual Question Answering (VQA).</p>
+<p>Human Validation: How do people perceive these images? We collect human ratings on quality, alignment, and aesthetics to see if quantitative metrics align with human judgment.</p>
+<p>Representative Findings
+Our extensive experiments reveal that while AIGIs are impressive, significant gaps remain.</p>
+<p>Key Discrepancies Revealed</p>
+<p>Large Gaps Persist: AIGIs show substantial discrepancies from natural images, with difference rates of up to 40% in image quality, 33.57% in semantic alignment, and a staggering 96.95% in downstream task applicability (specifically VQA).</p>
+<p>Downstream Tasks Suffer: The poor performance in downstream tasks like fine-grained object recognition and VQA highlights that current models struggle with practical, real-world utility.</p>
+<p>Text Guidance is Key: Images generated with text prompts (T2I and TI2I) show much better semantic alignment than those generated from an image prompt alone (I2I).</p>
+<p>Human vs. Machine Evaluation 🧐
+<div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
+  <span class="pe-3 text-primary-400">
+    <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
+</span>
+  </span>
+  <span class="dark:text-neutral-300">Key Finding: Human evaluators consistently identify larger discrepancies in quality, alignment, and aesthetics than our automated metrics do. This shows that current metrics don&rsquo;t fully capture human perception and validates the need for human-in-the-loop evaluation.</span>
+</div>
+</p>
+<p>Category Matters: The gap between AI and natural images varies significantly across different content categories (e.g., &ldquo;animal&rdquo; vs. &ldquo;accessory&rdquo;), likely due to imbalances in training data. DALL-E 3, for instance, showed the most pronounced deviations, possibly due to its tendency to generate more stylized imagery.</p>
+<p>How to Use D-Judge
+Our benchmark is a resource for the community to drive AIGC research forward.</p>
+<p>For Researchers &amp; Developers
+Evaluate New Models: Use the D-ANI dataset and the D-Judge framework to rigorously benchmark new generative models against a diverse set of conditions.</p>
+<p>Identify Weaknesses: The five-dimensional analysis helps pinpoint specific areas where a model is underperforming (e.g., poor structural fidelity, weak semantic alignment on I2I tasks).</p>
+<p>Develop Better Models: Beyond evaluation, D-Judge can serve as a training signal—for instance, as a reward function in reinforcement learning—to optimize models for better alignment and usability.</p>
+<p>Acknowledgments
+<div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
+  <span class="pe-3 text-primary-400">
+    
+  </span>
+  <span class="dark:text-neutral-300">Acknowledgments: This work is supported by Guangdong Basic and Applied Basic Research Foundation (2023A1515012848), CCF-DiDi GAIA Collaborative Research Funds, A*STAR, CISCO Systems (USA) Pte.Ltd, and the National University of Singapore. We thank all the volunteers who participated in our human evaluation experiments.</span>
+</div>
+</p>
+<p>Citation
+Reference (ACM MM &lsquo;25, Dublin, Ireland):</p>
+<p>Renyang Liu, Ziyu Lyu, Wei Zhou, and See-Kiong Ng. 2025. D-Judge: How Far Are We? Assessing the Discrepancies Between AI-synthesized and Natural Images through Multimodal Guidance. In Proceedings of the 33rd ACM International Conference on Multimedia (MM &lsquo;25). ACM, New York, NY, USA, 19 pages. <a href="https://arxiv.org/pdf/2412.17632" target="_blank" rel="noreferrer">https://arxiv.org/pdf/2412.17632</a></p>
+<details>
+<summary>BibTeX</summary>
+@article{liu2024d,
+  title={D-Judge: How Far Are We? Evaluating the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance},
+  author={Liu, Renyang and Lyu, Ziyu and Zhou, Wei and Ng, See-Kiong},
+  journal={arXiv preprint arXiv:2412.17632},
+  year={2024}
+}
+</details>
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">
