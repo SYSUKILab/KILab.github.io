@@ -4,13 +4,21 @@ description: "Dual-perspective, dual-granularity fairness evaluation for LLM-bas
 date: 2025-01-15
 layout: "simple"
 
-
-
 ---
 
-{{< lead >}}
 Dual-perspective, dual-granularity fairness evaluation for LLM-based job recommendation: we assess bias from both the user and the recruiter sides, at individual and group levels.
-{{< /lead >}}
+
+
+
+## Why FairWork
+
+Large Language Models (LLMs) enable highly personalized recommendations, but their **inherent biases** can harm fairness in job recommendation, affecting users and platforms alike. While prior work often covers **limited dimensions**, FairWork provides a comprehensive view.
+
+
+
+{{< alert "triangle-exclamation" >}}
+**Key Problem**: Existing fairness evaluation methods for job recommendation systems have limited scope and don't account for the complex bias patterns that emerge when LLMs are used for recommendation tasks.
+{{< /alert >}}
 
 {{< button href="https://huggingface.co/spaces/chenzhouliiii/FairWork2" target="_blank" >}}
 🤗 Demo
@@ -18,16 +26,6 @@ Dual-perspective, dual-granularity fairness evaluation for LLM-based job recomme
 {{< button href="https://github.com/chenzhouli/FairWork" target="_blank" >}}
 📁 Code
 {{< /button >}}
-
----
-
-## Why FairWork
-
-Large Language Models (LLMs) enable highly personalized recommendations, but their **inherent biases** can harm fairness in job recommendation, affecting users and platforms alike. While prior work often covers **limited dimensions**, FairWork provides a comprehensive view.
-
-{{< alert "triangle-exclamation" >}}
-**Key Problem**: Existing fairness evaluation methods for job recommendation systems have limited scope and don't account for the complex bias patterns that emerge when LLMs are used for recommendation tasks.
-{{< /alert >}}
 
 ---
 
