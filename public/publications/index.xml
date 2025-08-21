@@ -1,1 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent Publications on KILab🚀</title><link>https://kilab.site/publications/</link><description>Recent content in Recent Publications on KILab🚀</description><generator>Hugo</generator><language>en</language><copyright>© 2025 Knowledge Intelligince Lab @ SYSU.</copyright><atom:link href="https://kilab.site/publications/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SELECTED PUBLICATIONS on KILab🚀</title>
+    <link>http://localhost:1313/publications/</link>
+    <description>Recent content in SELECTED PUBLICATIONS on KILab🚀</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>**Address**: Room 910D, Engineering Building No.2, Shenzhen Campus of Sun Yat-sen University, No.66 Gongchang Road, Guangming District, Shenzhen, 518107, P. R. China
+
+**Contact**: lvzy7@mail.sysu.edu.cn
+
+© 2025 Knowledge Intelligince Lab @ SYSU.
+</copyright>
+    <atom:link href="http://localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

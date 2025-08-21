@@ -1,70 +1,87 @@
 ---
 title: "Team Members"
 description: "Knowledge Intelligence Lab Team Members"
+layout: "simple"
 cascade:
     showTableOfContents: true
 ---
 
-<!-- ## Faculty Members -->
+## Faculty
 
-### Professor Ziyu Lyu
-**Associate Professor (Ph.D. Supervisor)**
+<div style="display: flex; gap: 40px; align-items: flex-start; margin-bottom: 40px;">
 
-{{< figure src="/images/prof_lyu.jpg" alt="Prof. Ziyu Lyu" width="200" class="rounded" >}}
+<div style="flex: 0 0 300px;">
 
-- **Position**: Associate Professor, Ph.D. Supervisor
-- **Affiliation**: School of Cyber Science and Technology, Sun Yat-sen University
-- **Office**: Room 910D, Building 2, Science & Technology Building, Shenzhen Campus, SYSU
-- **Email**: lvzy7@mail.sysu.edu.cn
-- **Homepage**: [Google Scholar](https://scholar.google.com/citations?user=1D2467cAAAAJ&hl=en) | [Faculty Page](https://scst.sysu.edu.cn/members/members01/1410204.htm) | [Personal Website](https://sites.google.com/site/crystalziyulu/home)
+{{< figure src="/images/ziyu_lyu.png" alt="Prof. Ziyu Lyu" width="250" class="rounded" >}}
+
+**Dr. Ziyu Lyu (吕子钰)**  
+Associate Professor, Ph.D. Supervisor  
+Sun Yat-sen University  
+
+{{< icon "email" >}} **Email**: lvzy7@mail.sysu.edu.cn  
+{{< icon "mobile" >}} **Address**: Room 910D, Engineering Building No.2, Shenzhen Campus of Sun Yat-sen University, No.66 Gongchang Road, Guangming District, Shenzhen, 518107, P. R. China
+
+</div>
+
+<div style="flex: 1;">
+
+I am currently an Associate Professor at School of Cyber Science and Technology, Sun Yat-sen University (Shenzhen Campus), Young Talent of Guangdong Province, Shenzhen Oversea High-level talent. Before joining SYSU, I was an Associate Professor in Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences. I received my Ph.D. from the Department of Computer Science, The University of Hong Kong in 2016, supervised by Prof. Nikos Mamoulis and Prof. David Wai-lok Cheung. I was a research associate at Department of Computing, The Hong Kong Polytechnic University, and collaborate with Prof. Wenjie Li during 2016-2017.
+
+{{< icon "globe" >}} [Faculty Page](https://scst.sysu.edu.cn/members/members01/1410204.htm) | {{< icon "link" >}} [Personal Website](https://sites.google.com/site/crystalziyulu/home) | {{< icon "weibo" >}} [Group Social Account (Xiaohongshu)](https://www.xiaohongshu.com)
+
+</div>
+
+</div>
 
 ---
 
-## Students
-#### Pengyu Qi
-{{< badge >}}PhD Students{{< /badge >}}  
+## Current Students
 
-{{< figure src="/images/pengyu_qi.jpg" alt="Pengyu Qi" width="150" class="rounded" >}}
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin: 30px 0;">
 
-- **Research Areas**: AI Safety
-- **Research Interests**: Large language model security, adversarial robustness, trustworthy AI algorithm design and verification
-- **Duration**: 2024.09 - Present
+<div style="text-align: center;">
+{{< figure src="/images/pengyu_qi.png" alt="Pengyu Qi" width="150" class="rounded" >}}
+<strong>Pengyu Qi</strong><br>
+Ph.D. (2024.09-)<br>
+AI Safety<br>
+<a href="https://arxiv.org/abs/2506.02460">MidPO</a> (EMNLP FINDING 25)<br>
+{{< icon "email" >}} <a href="mailto:qiyp7@mail2.sysu.edu.cn">qiyp7@mail2.sysu.edu.cn</a>
+</div>
 
-#### Jin Zeng
-{{< badge >}}PhD Students{{< /badge >}}  
-
+<div style="text-align: center;">
 {{< figure src="/images/jin_zeng.png" alt="Jin Zeng" width="150" class="rounded" >}}
+<strong>Jin Zeng</strong><br>
+Ph.D. (2025.09-)<br>
+Recommender Systems<br>
+{{< icon "email" >}} <a href="mailto:fengaogao@163.com">fengaogao@163.com</a>
+</div>
 
-- **Research Areas**: Recommender Systems
-- **Research Interests**: Fairness and explainability in recommendation systems, user modeling and behavior understanding, personalized information retrieval
-- **Duration**: 2025.09 - Present
-
-#### Wenbin Guo
-{{< badge >}}PhD Students{{< /badge >}}  
-
+<div style="text-align: center;">
 {{< figure src="/images/wenbin_guo.jpg" alt="Wenbin Guo" width="150" class="rounded" >}}
+<strong>Wenbin Guo</strong><br>
+Ph.D. (2025.09-)<br>
+AI Safety<br>
+{{< icon "email" >}} <a href="mailto:gordongwb@foxmail.com">gordongwb@foxmail.com</a>
+</div> 
 
-- **Research Areas**: AI Safety
-- **Research Interests**: Multi-Agent system security, agent collaboration safety, distributed AI system trustworthiness
-- **Duration**: 2025.09 - Present
-
-#### Yuhan Hu
-{{< badge >}}Master Students{{< /badge >}}  
-
+<div style="text-align: center;">
 {{< figure src="/images/yuhan_hu.png" alt="Yuhan Hu" width="150" class="rounded" >}}
+<strong>Yuhan Hu</strong><br>
+Master Student (2024.09-)<br>
+Recommender Systems<br>
+<a href="https://huggingface.co/spaces/chenzhouliiii/FairWork2">FairWork</a> (SIGIR'25 Demo)<br>
+{{< icon "email" >}} <a href="mailto:huyh76@mail2.sysu.edu.cn">huyh76@mail2.sysu.edu.cn</a>
+</div>
 
-- **Research Areas**: Recommender Systems
-- **Research Interests**: Recommendation algorithm optimization, knowledge graph-enhanced recommendation, explainable recommendation systems
-- **Duration**: 2024.09 - Present
-
-#### Anqi Liu
-{{< badge >}}Master Students{{< /badge >}}  
-
+<div style="text-align: center;">
 {{< figure src="/images/anqi_liu.png" alt="Anqi Liu" width="150" class="rounded" >}}
+<strong>Anqi Liu</strong><br>
+Master (2025.09-)<br>
+Recommender Systems<br>
+{{< icon "email" >}} <a href="mailto:astrid0523@foxmail.com">astrid0523@foxmail.com</a>
+</div>
 
-- **Research Areas**: Recommender Systems  
-- **Research Interests**: Recommendation algorithm optimization, knowledge graph-enhanced recommendation, explainable recommendation systems
-- **Duration**: 2025.09 - Present
+</div>
 
 <!-- ### Research Interns
 
@@ -74,38 +91,41 @@ cascade:
 ---
 
 ## Alumni
+**Dr. Renyang Liu**  
+*Intern @ SYSU* (2023.12 – 2024.08)  
+Ph.D. Student @ Yunnan University → Postdoc @ NUS  
+D-Judge (Accepted by MM'25)
 
-### Collaborators and Visiting Scholars
+**Mr. Songming Zhang**  
+*Intern @ SIAT CAS* (2022.12-2023.08)  
+Master Student @ CQJTU → Ph.D. Student @ SUAT-Nanjing University Joint Program  
+ShiftKD (Neural Networks 2025)
 
-#### International Collaboration
-- Maintaining close collaboration with universities such as The University of Hong Kong and The Hong Kong Polytechnic University
-- Conducting academic exchanges with renowned universities in Singapore, Australia, and other regions
-- Industry-Academia Cooperation: Collaborating with well-known tech companies such as DiDi and Tencent
+**Mr. Yuxiao Luo**  
+*Intern @ SIAT CAS* (2022.10-2023.06)  
+Master Student @ CUHKSZ → Ph.D. Student @ SIAT-HKPolyU Joint Program  
+TFDNet (PR2025)
 
-#### Training Achievements
-- Supervised multiple students in publishing papers at top-tier conferences
-- Trained students who have continued their studies at prestigious universities or joined renowned companies
-- Multiple students have received national scholarships, outstanding graduate awards, and other honors
+**Mr. Xingyu Huang**  
+*Intern @ SIAT CAS* (2022.06-2023.06)  
+Master Student @ USTC → ICBC Shanghai
 
----
+**Miss. Yue Wu**  
+*Intern @ SIAT CAS* (2021.06-2022.06)  
+Master Student @ CQUPT → Ph.D. Student @ Pengcheng lab-CAS joint program
 
-## Recruitment Information
+**Mr. Mingyu Zhao**  
+*Master Student @ SIAT CAS* (2022.08-2025.06)  
+Co-supervised with Dr. Shifeng Chen  
+Current Position: United Imaging Healthcare Shanghai
 
-{{< alert >}}
-**Continuous Recruitment**: We are actively recruiting the following positions:
-- PhD Students (2-3 per year)
-- Master Students (4-5 per year)
-- Postdoctoral Researchers
-- Undergraduate Research Interns
+**Mr. Zhaorui Lian**  
+*Master Student @ SIAT CAS-SUSTech Joint Program* (2022.08-2025.06)  
+Co-supervised with Dr. Min Yang  
+EGRec (WWW'25 Short)  
+Current Position: Alibaba
 
-**Application Requirements**:
-- Strong interest in AI safety, information retrieval, NLP, and related fields
-- Solid mathematical foundation and programming skills
-- Previous research experience is preferred
+**Miss. Lin Zhou**  
+*Master Student @ SIAT CAS* (2020.10-2022.06)  
+Co-supervised with Prof. Yu Qiao & Dr. Chao Dong
 
-**Contact**: Please send your CV to lvzy7@mail.sysu.edu.cn
-{{< /alert >}}
-
-{{< alert "information-circle" >}}
-**International Exchange Opportunities**: Our research group has close collaborations with prestigious universities in Hong Kong, Singapore, Australia, and other regions. We can recommend outstanding students for exchange programs, visiting research, internships, etc.
-{{< /alert >}}

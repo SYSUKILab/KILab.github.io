@@ -1,101 +1,59 @@
 ---
-title: "Recent Publications"
+title: "SELECTED PUBLICATIONS"
 description: "Publications from Knowledge Intelligence Lab"
 layout: "simple"
 
 ---
 
-Professor Lyu has been engaged in research in intelligent information retrieval, natural language processing, and trustworthy artificial intelligence for many years, publishing over 30 academic papers in CCF A/B journals and conferences in recent years.
 
-The following are representative research achievements from our laboratory:
-
-### 2025
-
-#### {{< icon "pencil" >}} DANI: Discrepancy Assessing for Natural and AI Images
-**Authors**: Renyang Liu, **Ziyu Lyu**, Wei Zhou, See-Kiong Ng  
-**Type**: Dataset  
-**Associated Paper**: D-Judge: How Far Are We? Assessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance (ACM MM 2025)
-
-{{< button href="https://huggingface.co/datasets/Renyang/DANI" >}}🤗 Dataset{{< /button >}}
-{{< button href="https://github.com/ryliu68/DJudge" >}}Code{{< /button >}}
-{{< button href="/papers/2412.17632v2.pdf" >}}Paper PDF{{< /button >}}
-
+> (* corresponding author, #supervised students)
+> 
 #### {{< icon "pencil" >}} D-Judge: How Far Are We? Assessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance
-**Authors**: Renyang Liu, **Ziyu Lyu**, Wei Zhou, See-Kiong Ng  
+**Authors**: Renyang Liu*, **Ziyu Lyu***, Wei Zhou, See-Kiong Ng  
 **Conference**: ACM International Conference on Multimedia (MM), 2025  
 **Rank**: CCF-A
 
-{{< button href="/papers/2412.17632v2.pdf" >}}PDF{{< /button >}}
-{{< button href="https://arxiv.org/abs/2412.17632" >}}arXiv{{< /button >}}
-{{< button href="https://github.com/ryliu68/DJudge" >}}Code{{< /button >}}
-{{< button href="https://huggingface.co/datasets/Renyang/DANI" >}}🤗 Dataset{{< /button >}}
+#### {{< icon "pencil" >}} ShiftKD: Benchmarking knowledge distillation under distribution shift
+**Authors**: Songming Zhang#, Yuxiao Luo#, **Ziyu Lyu***, Xiaofeng Chen  
+**Journal**: Neural Networks, Volume 192, December 2025, 107838
 
-### 2024
+#### {{< icon "pencil" >}} EGRec: Leveraging Generative Rich Intents for Enhanced Recommendation with Large Language Models
+**Authors**: Zhaorui Lian#, Binzong Geng, Xiyu Chang, Yu Zhang, Ke Ding, **Ziyu Lyu***, Guanghu Yuan, Chengming Li, Min Yang*, Zhaoxin Huan, Bin Shen, Yong He, Linjian Mo, Liang Zhang, Xing Zhu  
+**Conference**: Proceedings of The Web Conference 2025 (WWW'25), Sydney, Australia, 28 April - 2 May 2025
 
-### 2023
+#### {{< icon "pencil" >}} FairWork: A Generic Framework For Evaluating Fairness In LLM-Based Job Recommender System
+**Authors**: Yuhan Hu#, **Ziyu Lyu***, Lu Bai, and Lixin Cui  
+**Conference**: Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '25 Demo)
 
-#### {{< icon "pencil" >}} You Augment Me: Exploring ChatGPT-based Data Augmentation for Semantic Code Search
-**Authors**: Yanlin Wang, Lianghong Guo, Ensheng Shi, Wenqing Chen, Jiachi Chen, Wanjun Zhong, Menghan Wang, Hui Li, **Ziyu Lyu**, Hongyu Zhang, and Zibin Zheng  
-**Conference**: IEEE International Conference on Software Maintenance and Evolution (ICSME), 2023  
-**Rank**: CCF-B
+#### {{< icon "pencil" >}} ENAHPool: The Edge-Node Attention-based Hierarchical Pooling for Graph Neural Networks
+**Authors**: Zhehan Zhao, Lu Bai, Lixin Cui, Ming Li, **Ziyu Lyu**, Lixiang Xu, Yue Wang, Edwin Hancock  
+**Conference**: 42th International Conference on Machine Learning (ICML'25)
 
-{{< button href="/papers/2408.05542v2.pdf" >}}PDF{{< /button >}}
+#### {{< icon "pencil" >}} DHAKR: Learning Deep Hierarchical Attention-Based Kernelized Representations for Graph Classification
+**Authors**: Feifei Qian, Lu Bai, Lixin Cui, Ming Li, **Ziyu Lyu**, Hangyuan Du, Edwin Hancock  
+**Conference**: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI'25)
 
-{{< button href="https://anonymous.4open.science/r/ChatDANCE" >}}Code & Data{{< /button >}}
-
-
-
-#### {{< icon "pencil" >}} Information Retrieval Meets Large Language Models: A Strategic Report from Chinese IR Community
-**Authors**: Qingyao Ai, Ting Bai, Zhao Cao, Yi Chang, Jiawei Chen, Zhumin Chen, Zhiyong Cheng, Shoubin Dong, Zhicheng Dou, Fuli Feng, Shen Gao, Jiafeng Guo, Xiangnan He, Yanyan Lan, Chenliang Li, Yiqun Liu, **Ziyu Lyu**, Weizhi Ma, Jun Ma, Zhaochun Ren, Pengjie Ren, Zhiqiang Wang, Mingwen Wang, Ji-Rong Wen, Le Wu, Xin Xin, Jun Xu, Dawei Yin, Peng Zhang, Fan Zhang, Weinan Zhang, Min Zhang, Xiaofei Zhu  
-**Journal**: AI Open, 2023
-
-{{< button href="https://arxiv.org/abs/2307.09751" >}}arXiv{{< /button >}}
-
-
-
-### 2022
+#### {{< icon "pencil" >}} TFDNet: Time-Frequency Enhanced Decomposed Network for Long-term Time Series Forecasting
+**Authors**: Yuxiao Luo#, Songming Zhang, **Ziyu Lyu***, Yuhan Hu  
+**Journal**: Pattern Recognition, Volume 162, 2025
 
 #### {{< icon "pencil" >}} Knowledge Enhanced Graph Neural Networks for Explainable Recommendation
 **Authors**: **Ziyu Lyu**, Yue Wu, Junjie Lai, Min Yang, Chengming Li, Wei Zhou  
-**Journal**: IEEE Transactions on Knowledge and Data Engineering (TKDE), 2022  
+**Journal**: IEEE Transactions on Knowledge and Data Engineering (TKDE), 2023, vol. 35, no. 5, pp. 4954-4968
 **Rank**: CCF-A / JCR Q1
 
-{{< button href="https://ieeexplore.ieee.org/document/9681226" >}}IEEE Xplore{{< /button >}}
+#### {{< icon "pencil" >}} Information Retrieval Meets Large Language Models: A Strategic Report from Chinese IR Community
+**Authors**: Qingyao Ai, Ting Bai, Zhao Cao, Yi Chang, Jiawei Chen, Zhumin Chen, Zhiyong Cheng, Shoubin Dong, Zhicheng Dou, Fuli Feng, Shen Gao, Jiafeng Guo, Xiangnan He, Yanyan Lan, Chenliang Li, Yiqun Liu, **Ziyu Lyu**, Weizhi Ma, Jun Ma, Zhaochun Ren, Pengjie Ren, Zhiqiang Wang, Mingwen Wang, Ji-Rong Wen, Le Wu, Xin Xin, Jun Xu, Dawei Yin, Peng Zhang, Fan Zhang, Weinan Zhang, Min Zhang, Xiaofei Zhu  
+**Journal**: AI Open, Volume 4, 2023, Pages 80-90
 
 #### {{< icon "pencil" >}} Visual Knowledge Graph for Human Action Reasoning in Videos
-**Authors**: Yue Ma, Yali Wang, Yue Wu, **Ziyu Lyu**, Siran Chen, Xiu Li, Yu Qiao  
-**Conference**: Proceedings of the 29th ACM International Conference on Multimedia (MM), 2022  
+**Authors**: Yue Ma#, Yali Wang, Yue Wu#, **Ziyu Lyu**, Siran Chen, Xiu Li, Yu Qiao  
+**Conference**: Proceedings of the 29th ACM International Conference on Multimedia (MM), Lisbon, October, 2022
 **Rank**: CCF-A
 
-<!-- {{< figure src="/images/pub_visual_kg.png" alt="Visual Knowledge Graph" width="300" class="rounded" >}} -->
-
-{{< button href="/papers/visual_kg.pdf" >}}PDF{{< /button >}}
-
-
----
-
-## Complete Publication Statistics
-
-### By Category
-
-**Journal Papers**:
-- **CCF-A / JCR Q1**: TKDE (2 papers)
-- **CCF-B / JCR Q1**: Information Sciences (2 papers), Neural Networks (1 paper)
-- **Other High-Quality Journals**: 5 papers
-
-**Conference Papers**:
-- **CCF-A**: AAAI (1 paper), SIGIR (1 paper), MM (1 paper)
-- **CCF-B**: ICSME (1 paper), ICWSM (1 paper), SDM (1 paper)
-- **Other Important Conferences**: 8 papers
+#### {{< icon "pencil" >}} Multi-task Learning for Recommendation over Heterogeneous Information Network
+**Authors**: Hui Li, Yanlin Wang, **Ziyu Lyu**, Jieming Shi  
+**Journal**: IEEE Transactions on Knowledge and Data Engineering (TKDE), 2022
 
 
----
 
-{{< alert "link" >}}
-**More Publications**: For the complete list of publications, please visit [Full_Paperlist](/full_paperlist) or [DBLP](https://dblp.uni-trier.de/pers/hd/l/Lu:Ziyu.html).
-{{< /alert >}}
-
-
-{{< alert "lightbulb" >}}
-**Academic Impact**: Our papers have been cited hundreds of times, making significant impact in intelligent information retrieval, recommendation systems, and related fields
-{{< /alert >}}

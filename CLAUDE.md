@@ -34,18 +34,29 @@ hugo server -D --bind 0.0.0.0
 hugo
 ```
 
+### Production Build (with minification)
+```bash
+hugo --minify
+```
+
 ### Update Theme
 ```bash
 git submodule update --remote themes/congo
 ```
 
+### Initialize/Update Submodules (after clone)
+```bash
+git submodule update --init --recursive
+```
+
 ## Site Configuration
 
-- **Base URL**: https://kilab.github.io/
+- **Base URL**: https://kilab.site/ (primary), also deployed to https://kilab.github.io/
 - **Default Language**: English
 - **Theme**: Congo with "congo" color scheme
 - **Layout**: Page layout for homepage with recent posts
 - **Features**: Image lazy loading, WebP support, RSS/JSON output
+- **Hugo Version**: 0.147.5 (as specified in GitHub Actions)
 
 ## Content Structure
 
@@ -66,4 +77,15 @@ The Congo theme provides:
 
 ## Deployment
 
-The site is automatically deployed to GitHub Pages via GitHub Actions workflow (`.github/workflows/hugo.yml`).
+The site is automatically deployed to GitHub Pages via GitHub Actions workflow (`.github/workflows/hugo.yml`). The workflow:
+- Triggers on pushes to `main` branch
+- Uses Hugo v0.147.5 extended with deploy features
+- Builds with `--minify` flag for production
+- Deploys to GitHub Pages with proper permissions
+
+## Important Notes
+
+- The Congo theme is included as a git submodule - always use `git submodule update --init --recursive` after cloning
+- Site content includes both English and Chinese text, with Chinese primarily on homepage
+- Academic PDFs are stored in `content/papers/` and referenced in publications
+- Team member photos are in `static/images/` directory

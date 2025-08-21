@@ -1,3 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KILab🚀</title><link>https://kilab.site/</link><description>Recent content on KILab🚀</description><generator>Hugo</generator><language>en</language><copyright>© 2025 Knowledge Intelligince Lab @ SYSU.</copyright><lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kilab.site/index.xml" rel="self" type="application/rss+xml"/><item><title>D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance</title><link>https://kilab.site/posts/djudge/</link><pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate><guid>https://kilab.site/posts/djudge/</guid><description>&lt;p>This paper introduces DJudge, a comprehensive benchmark for evaluating the gap between AI-generated and natural images across multiple dimensions including quality, semantic alignment, and human perception.&lt;/p></description></item><item><title>🎊 Official Lab Website Launched</title><link>https://kilab.site/posts/website-launch/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://kilab.site/posts/website-launch/</guid><description>&lt;p>After careful design and development, the official website of the Knowledge Intelligence Lab (KILab) at Sun Yat-sen University is now fully upgraded and online! The new website adopts modern design concepts, providing visitors with a clearer and more intuitive browsing experience.&lt;/p></description></item><item><title>Continuous Expansion of International Collaboration Network</title><link>https://kilab.site/posts/international-collaboration/</link><pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate><guid>https://kilab.site/posts/international-collaboration/</guid><description>&lt;p>The KILab has always adhered to the concept of open cooperation, establishing extensive and deep collaborative relationships with renowned academic institutions and technology companies worldwide.&lt;/p></description></item><item><title>Rich Academic Achievements in 2023</title><link>https://kilab.site/posts/academic-achievements-2023/</link><pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><guid>https://kilab.site/posts/academic-achievements-2023/</guid><description>&lt;p>2023 was a fruitful year for the KILab. We published high-quality papers at multiple top international academic conferences, demonstrating our research capabilities across various fields of artificial intelligence.&lt;/p></description></item><item><title>Professor Ziyu Lyu Joins SYSU School of Cyber Science and Technology</title><link>https://kilab.site/posts/professor-joins-sysu/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://kilab.site/posts/professor-joins-sysu/</guid><description>&lt;p>We are pleased to announce that Professor Ziyu Lyu officially joined the School of Cyber Science and Technology at Sun Yat-sen University in September 2023, serving as Associate Professor and Ph.D. Supervisor.&lt;/p></description></item><item><title/><link>https://kilab.site/lab_activities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kilab.site/lab_activities/</guid><description/></item><item><title/><link>https://kilab.site/research_projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kilab.site/research_projects/</guid><description/></item><item><title>Conference Deadlines</title><link>https://kilab.site/conference_deadlines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kilab.site/conference_deadlines/</guid><description>&lt;h2 id="important-conference-deadlines" class="relative group">Important Conference Deadlines &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#important-conference-deadlines" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>To facilitate lab members and academic colleagues in tracking important conference submission deadlines, we have compiled information about major conferences in related fields.&lt;/p></description></item><item><title>Publications</title><link>https://kilab.site/full_paperlist/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kilab.site/full_paperlist/</guid><description>&lt;ol>
-&lt;li>
-&lt;p>Renyang Liu, &lt;strong>Ziyu Lyu&lt;/strong>, Wei Zhou, See-Kiong Ng, DJudge： How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance, 2024&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KILab🚀</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on KILab🚀</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>**Address**: Room 910D, Engineering Building No.2, Shenzhen Campus of Sun Yat-sen University, No.66 Gongchang Road, Guangming District, Shenzhen, 518107, P. R. China
+
+**Contact**: lvzy7@mail.sysu.edu.cn
+
+© 2025 Knowledge Intelligince Lab @ SYSU.
+</copyright>
+    <lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance</title>
+      <link>http://localhost:1313/posts/djudge/</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/djudge/</guid>
+      <description>&lt;p&gt;This paper introduces DJudge, a comprehensive benchmark for evaluating the gap between AI-generated and natural images across multiple dimensions including quality, semantic alignment, and human perception.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🎊 Official Lab Website Launched</title>
+      <link>http://localhost:1313/posts/website-launch/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/website-launch/</guid>
+      <description>&lt;p&gt;After careful design and development, the official website of the Knowledge Intelligence Lab (KILab) at Sun Yat-sen University is now fully upgraded and online! The new website adopts modern design concepts, providing visitors with a clearer and more intuitive browsing experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Professor Ziyu Lyu Joins SYSU School of Cyber Science and Technology</title>
+      <link>http://localhost:1313/posts/professor-joins-sysu/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/professor-joins-sysu/</guid>
+      <description>&lt;p&gt;We are pleased to announce that Professor Ziyu Lyu officially joined the School of Cyber Science and Technology at Sun Yat-sen University in September 2023, serving as Associate Professor and Ph.D. Supervisor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/lab_activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lab_activities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/research_projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research_projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conference Deadlines</title>
+      <link>http://localhost:1313/conference_deadlines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/conference_deadlines/</guid>
+      <description>&lt;h2 id=&#34;important-conference-deadlines&#34; class=&#34;relative group&#34;&gt;Important Conference Deadlines &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#important-conference-deadlines&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;To facilitate lab members and academic colleagues in tracking important conference submission deadlines, we have compiled information about major conferences in related fields.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/full_paperlist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/full_paperlist/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Renyang Liu, &lt;strong&gt;Ziyu Lyu&lt;/strong&gt;, Wei Zhou, See-Kiong Ng, DJudge： How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance, 2024&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>招聘信息</title>
+      <link>http://localhost:1313/recruitment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recruitment/</guid>
+      <description>&lt;p&gt;中山大学网络空间安全学院（地理位置：深圳校区）吕子钰课题组诚招 2026 秋季入学博士生/硕士生，长期招聘博士后和实习生，有意向申请2027 秋季的同学（特别有意保研的同学）也可以联系或者先申请实习生。课题组学术氛围浓厚、每周至少一次1对1的导师交流指导。优秀的学生、博士后可以推荐到国内外著名高校和国内知名科技公司交流、访学、实习等。&lt;/p&gt;&#xA;&lt;h2 id=&#34;研究方向&#34; class=&#34;relative group&#34;&gt;研究方向 &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%e7%a0%94%e7%a9%b6%e6%96%b9%e5%90%91&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;具体研究方向如下（不仅限于以下方向）：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -10,6 +10,11 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 [[main]]
+name = "Home"
+pageRef = "_index"
+weight = 10
+
+[[main]]
 name = "News"
 pageRef = "posts"
 weight = 10
@@ -18,6 +23,11 @@ weight = 10
 name = "Publications"
 pageRef = "publications"
 weight = 20
+
+[[main]]
+name = "Recruitment"
+pageRef = "recruitment"
+weight = 25
 
 [[main]]
 name = "Team"
@@ -45,6 +55,7 @@ weight = 30
 name = "Conference Deadlines"
 pageRef = "conference_deadlines"
 weight = 50
+
 
 
 # -- Footer Menu --
