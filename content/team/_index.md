@@ -103,7 +103,7 @@ Recommender Systems<br>
 ---
 
 ## Alumni
-**Dr. Renyang Liu**  
+**[Dr. Renyang Liu](https://scholar.google.com/citations?user=yUJafNAAAAAJ&hl=en)**  
 *Intern @ SYSU* (2023.12 – 2024.08) / Ph.D. Student @ Yunnan University → Postdoc @ NUS / D-Judge (Accepted by MM'25)
 
 **Mr. Songming Zhang**  
