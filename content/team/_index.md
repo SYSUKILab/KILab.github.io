@@ -25,9 +25,9 @@ Sun Yat-sen University
 
 <div style="flex: 1;">
 
-I am currently an Associate Professor at School of Cyber Science and Technology, Sun Yat-sen University (Shenzhen Campus), Young Talent of Guangdong Province, Shenzhen Oversea High-level talent. Before joining SYSU, I was an Associate Professor in Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences. I received my Ph.D. from the Department of Computer Science, The University of Hong Kong in 2016, supervised by Prof. Nikos Mamoulis and Prof. David Wai-lok Cheung. I was a research associate at Department of Computing, The Hong Kong Polytechnic University, and collaborate with Prof. Wenjie Li during 2016-2017.
+Dr. Ziyu Lyu is currently an Associate Professor at School of Cyber Science and Technology, Sun Yat-sen University (Shenzhen Campus), Young Talent of Guangdong Province, Shenzhen Oversea High-level talent. Before joining SYSU, I was an Associate Professor in Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences. I received my Ph.D. from the Department of Computer Science, The University of Hong Kong in 2016, supervised by Prof. Nikos Mamoulis and Prof. David Wai-lok Cheung. I was a research associate at Department of Computing, The Hong Kong Polytechnic University, and collaborate with Prof. Wenjie Li during 2016-2017.
 
-{{< icon "globe" >}} [Faculty Page](https://scst.sysu.edu.cn/members/members01/1410204.htm) | {{< icon "link" >}} [Personal Website](https://sites.google.com/site/crystalziyulu/home) | {{< icon "weibo" >}} [Group Social Account (Xiaohongshu)](https://www.xiaohongshu.com)
+{{< icon "globe" >}} [Faculty Page](https://scst.sysu.edu.cn/members/members01/1410204.htm) | {{< icon "link" >}} [Personal Website](https://sites.google.com/site/crystalziyulu/home) | {{< icon "xiaohongshu" >}} [Rednote](https://www.xiaohongshu.com)
 
 </div>
 
@@ -42,7 +42,7 @@ I am currently an Associate Professor at School of Cyber Science and Technology,
 <div style="text-align: center;">
 {{< figure src="/images/pengyu_qi.png" alt="Pengyu Qi" width="150" class="rounded" >}}
 <strong>Pengyu Qi</strong><br>
-Ph.D. (2024.09-)<br>
+Ph.D. Student (2024.09-)<br>
 AI Safety<br>
 <a href="https://arxiv.org/abs/2506.02460">MidPO</a> (EMNLP FINDING 25)<br>
 {{< icon "email" >}} <a href="mailto:qiyp7@mail2.sysu.edu.cn">qiyp7@mail2.sysu.edu.cn</a>
@@ -51,7 +51,7 @@ AI Safety<br>
 <div style="text-align: center;">
 {{< figure src="/images/jin_zeng.png" alt="Jin Zeng" width="150" class="rounded" >}}
 <strong>Jin Zeng</strong><br>
-Ph.D. (2025.09-)<br>
+Ph.D. Student (2025.09-)<br>
 Recommender Systems<br>
 {{< icon "email" >}} <a href="mailto:fengaogao@163.com">fengaogao@163.com</a>
 </div>
@@ -59,7 +59,7 @@ Recommender Systems<br>
 <div style="text-align: center;">
 {{< figure src="/images/wenbin_guo.jpg" alt="Wenbin Guo" width="150" class="rounded" >}}
 <strong>Wenbin Guo</strong><br>
-Ph.D. (2025.09-)<br>
+Ph.D. Student (2025.09-)<br>
 AI Safety<br>
 {{< icon "email" >}} <a href="mailto:gordongwb@foxmail.com">gordongwb@foxmail.com</a>
 </div> 
@@ -76,7 +76,7 @@ Recommender Systems<br>
 <div style="text-align: center;">
 {{< figure src="/images/anqi_liu.png" alt="Anqi Liu" width="150" class="rounded" >}}
 <strong>Anqi Liu</strong><br>
-Master (2025.09-)<br>
+Master Student (2025.09-)<br>
 Recommender Systems<br>
 {{< icon "email" >}} <a href="mailto:astrid0523@foxmail.com">astrid0523@foxmail.com</a>
 </div>
@@ -92,40 +92,26 @@ Recommender Systems<br>
 
 ## Alumni
 **Dr. Renyang Liu**  
-*Intern @ SYSU* (2023.12 – 2024.08)  
-Ph.D. Student @ Yunnan University → Postdoc @ NUS  
-D-Judge (Accepted by MM'25)
+*Intern @ SYSU* (2023.12 – 2024.08) / Ph.D. Student @ Yunnan University → Postdoc @ NUS / D-Judge (Accepted by MM'25)
 
 **Mr. Songming Zhang**  
-*Intern @ SIAT CAS* (2022.12-2023.08)  
-Master Student @ CQJTU → Ph.D. Student @ SUAT-Nanjing University Joint Program  
-ShiftKD (Neural Networks 2025)
+*Intern @ SIAT CAS* (2022.12-2023.08) / Master Student @ CQJTU → Ph.D. Student @ SUAT-Nanjing University Joint Program / ShiftKD (Neural Networks 2025)
 
 **Mr. Yuxiao Luo**  
-*Intern @ SIAT CAS* (2022.10-2023.06)  
-Master Student @ CUHKSZ → Ph.D. Student @ SIAT-HKPolyU Joint Program  
-TFDNet (PR2025)
+*Intern @ SIAT CAS* (2022.10-2023.06) / Master Student @ CUHKSZ → Ph.D. Student @ SIAT-HKPolyU Joint Program / TFDNet (PR2025)
 
 **Mr. Xingyu Huang**  
-*Intern @ SIAT CAS* (2022.06-2023.06)  
-Master Student @ USTC → ICBC Shanghai
+*Intern @ SIAT CAS* (2022.06-2023.06) / Master Student @ USTC → ICBC Shanghai
 
 **Miss. Yue Wu**  
-*Intern @ SIAT CAS* (2021.06-2022.06)  
-Master Student @ CQUPT → Ph.D. Student @ Pengcheng lab-CAS joint program
+*Intern @ SIAT CAS* (2021.06-2022.06) / Master Student @ CQUPT → Ph.D. Student @ Pengcheng lab-CAS joint program
 
 **Mr. Mingyu Zhao**  
-*Master Student @ SIAT CAS* (2022.08-2025.06)  
-Co-supervised with Dr. Shifeng Chen  
-Current Position: United Imaging Healthcare Shanghai
+*Master Student @ SIAT CAS* (2022.08-2025.06) / Co-supervised with Dr. Shifeng Chen / Current Position: United Imaging Healthcare Shanghai
 
 **Mr. Zhaorui Lian**  
-*Master Student @ SIAT CAS-SUSTech Joint Program* (2022.08-2025.06)  
-Co-supervised with Dr. Min Yang  
-EGRec (WWW'25 Short)  
-Current Position: Alibaba
+*Master Student @ SIAT CAS-SUSTech Joint Program* (2022.08-2025.06) / Co-supervised with Dr. Min Yang / EGRec (WWW'25 Short) / Current Position: Alibaba
 
 **Miss. Lin Zhou**  
-*Master Student @ SIAT CAS* (2020.10-2022.06)  
-Co-supervised with Prof. Yu Qiao & Dr. Chao Dong
+*Master Student @ SIAT CAS* (2020.10-2022.06) / Co-supervised with Prof. Yu Qiao & Dr. Chao Dong
 

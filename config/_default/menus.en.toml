@@ -46,15 +46,15 @@ weight = 100
 [main.params]
 action = "locale"
 
-[[footer]]
-name = "Lab Activities"
-pageRef = "activities"
-weight = 30
+# [[footer]]
+# name = "Lab Activities"
+# pageRef = "activities"
+# weight = 30
 
-[[footer]]
-name = "Conference Deadlines"
-pageRef = "conference_deadlines"
-weight = 50
+# [[footer]]
+# name = "Conference Deadlines"
+# pageRef = "conference_deadlines"
+# weight = 50
 
 
 

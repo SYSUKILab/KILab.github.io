@@ -4,6 +4,7 @@ date: 2025-01-01
 draft: false
 description: "KILab's official website has been fully upgraded, showcasing the latest research achievements and team highlights"
 tags: ["announcement", "website"]
+layout: "simple"
 ---
 
 After careful design and development, the official website of the Knowledge Intelligence Lab (KILab) at Sun Yat-sen University is now fully upgraded and online! The new website adopts modern design concepts, providing visitors with a clearer and more intuitive browsing experience.

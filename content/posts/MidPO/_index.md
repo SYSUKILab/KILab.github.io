@@ -3,6 +3,7 @@ title: "MidPO: Dual Preference Optimization for Safety and Helpfulness in Large
 Language Models via a Mixture of Experts Framework"
 description: "We introduce MidPO, a novel framework that uses specialized 'safety' and 'helpfulness' experts and a dynamic router to achieve a state-of-the-art balance between LLM safety and performance."
 date: 2025-08-10
+layout: "simple"
 ---
 
 Large Language Models (LLMs) need to be both helpful and safe, but achieving both is a major challenge. We propose MidPO, a Mixture of Experts (MoE) framework that fine-tunes two specialized experts for safety and helpfulness and uses a dynamic routing mechanism to adaptively balance them, outperforming existing methods.

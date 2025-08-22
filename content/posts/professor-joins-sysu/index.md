@@ -3,6 +3,7 @@ title: "Professor Ziyu Lyu Joins SYSU School of Cyber Science and Technology"
 date: 2023-09-01
 description: "Warmly welcome Professor Ziyu Lyu joining the School of Cyber Science and Technology at Sun Yat-sen University as Associate Professor and Ph.D. Supervisor"
 tags: ["announcement", "faculty"]
+layout: "simple"
 ---
 
 We are pleased to announce that Professor Ziyu Lyu officially joined the School of Cyber Science and Technology at Sun Yat-sen University in September 2023, serving as Associate Professor and Ph.D. Supervisor.

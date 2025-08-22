@@ -138,7 +138,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "954"
+    "wordCount": "868"
   }
   </script>
     
@@ -335,123 +335,15 @@
     <div class="relative flex grow flex-col">
       <main id="main-content" class="grow">
         
-  <article>
-    <header class="max-w-prose">
+  <article class="max-w-full">
+    <header>
       
-      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
         D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance
       </h1>
-      
-        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-          
-
-
-
-
-
-  
-  
-
-
-
-  
-
-  
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-07-30 00:00:00 &#43;0000 UTC">July 30 2025</time>
-    
-
-    
-    
-  </div>
-
-  
-  
-
-
-        </div>
-      
-      
-        <div class="prose">
-          
-          
-          
-          
-
-
-
-
-
-
-
-
-  
-    <picture
-      class="mb-6 rounded-md"
-      
-    >
-      
-      
-      
-      
-        <source
-          
-            srcset="http://localhost:1313/posts/djudge/feature_hu_8f2a85109222c184.webp 330w,http://localhost:1313/posts/djudge/feature_hu_3c8c6fabbbc4faef.webp 660w
-            
-              ,http://localhost:1313/posts/djudge/feature_hu_76ab6c4f9776138f.webp 1024w
-            
-            
-              ,http://localhost:1313/posts/djudge/feature_hu_f24285a555a5e4a0.webp 1320w
-            "
-          
-          sizes="100vw"
-          type="image/webp"
-        />
-      
-      <img
-        width="3064"
-        height="1186"
-        class="mb-6 rounded-md"
-        
-        
-        
-          src="http://localhost:1313/posts/djudge/feature_hu_faa13a251d42a23f.png" srcset="http://localhost:1313/posts/djudge/feature_hu_23519f3a6d730d7b.png 330w,http://localhost:1313/posts/djudge/feature_hu_faa13a251d42a23f.png 660w
-          
-            ,http://localhost:1313/posts/djudge/feature_hu_98b8db9b1db173c.png 1024w
-          
-          
-            ,http://localhost:1313/posts/djudge/feature_hu_238be55adee6fabf.png 1320w
-          "
-          sizes="100vw"
-        
-      />
-    </picture>
-  
-
-
-          
-        </div>
-      
     </header>
-    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
-      
-      <div class="min-h-0 min-w-0 max-w-prose grow">
-        <p>AI-generated images are more visually stunning than ever, but how do they really stack up against natural, real-world photos? We introduce D-Judge, a large-scale benchmark designed to systematically investigate and quantify the discrepancies that remain.</p>
+    <section class="prose mt-6 max-w-full dark:prose-invert">
+      <p>AI-generated images are more visually stunning than ever, but how do they really stack up against natural, real-world photos? We introduce D-Judge, a large-scale benchmark designed to systematically investigate and quantify the discrepancies that remain.</p>
 <p>Despite the rapid progress of generative models, AI-generated images (AIGIs) often fall short of real-world application standards. Existing evaluation methods provide an incomplete picture. They often focus on a narrow set of metrics like perceptual quality or text alignment, use small datasets, and primarily consider simple text-to-image prompts, neglecting more complex multimodal guidance.</p>
 <div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
   <span class="pe-3 text-primary-400">
@@ -497,14 +389,12 @@
 
 </a>
 </p>
-<p>Our work introduces two core contributions to tackle this challenge:</p>
-<p>The D-ANI Dataset: A massive new multimodal dataset featuring over 440,000 AI-generated images from 9 representative models (from GANs to DALL-E 3). It&rsquo;s the first to include images generated from unimodal (Text-to-Image, Image-to-Image) and multimodal (Text-and-Image-to-Image) prompts.</p>
-<p>The D-Judge Framework: A fine-grained evaluation framework that assesses discrepancies across five crucial dimensions: naive visual quality, semantic alignment, aesthetic appeal, downstream task applicability, and coordinated human validation.</p>
-<p>Method &amp; System</p>
-<ol>
-<li>Framework Overview
-D-Judge systematically compares AI-generated images with their natural counterparts. For a given prompt, we generate an AIGI and pair it with a real reference image. The framework then assesses the &ldquo;Discrepancy Rate&rdquo; (DR) between the two across our five dimensions, integrating both automated metrics and human judgment for a holistic view.</li>
-</ol>
+<h2 id="what-we-built" class="relative group">What We Built <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-we-built" aria-label="Anchor">#</a></span></h2><p>Our work introduces two core contributions to tackle this challenge:</p>
+<ul>
+<li>The D-ANI Dataset: A massive new multimodal dataset featuring over 440,000 AI-generated images from 9 representative models (from GANs to DALL-E 3). It&rsquo;s the first to include images generated from unimodal (Text-to-Image, Image-to-Image) and multimodal (Text-and-Image-to-Image) prompts.</li>
+<li>The D-Judge Framework: A fine-grained evaluation framework that assesses discrepancies across five crucial dimensions: naive visual quality, semantic alignment, aesthetic appeal, downstream task applicability, and coordinated human validation.</li>
+</ul>
+<h2 id="method--system" class="relative group">Method &amp; System <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#method--system" aria-label="Anchor">#</a></span></h2><h3 id="1-framework-overview" class="relative group">1. Framework Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#1-framework-overview" aria-label="Anchor">#</a></span></h3><p>D-Judge systematically compares AI-generated images with their natural counterparts. For a given prompt, we generate an AIGI and pair it with a real reference image. The framework then assesses the &ldquo;Discrepancy Rate&rdquo; (DR) between the two across our five dimensions, integrating both automated metrics and human judgment for a holistic view.</p>
 
   
   
@@ -574,9 +464,7 @@ D-Judge systematically compares AI-generated images with their natural counterpa
   </figure>
 
 
-<ol start="2">
-<li>The D-ANI Dataset
-<span class="flex">
+<h3 id="2-the-d-ani-dataset" class="relative group">2. The D-ANI Dataset <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#2-the-d-ani-dataset" aria-label="Anchor">#</a></span></h3><span class="flex">
   <span
     class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
   >
@@ -584,11 +472,12 @@ D-Judge systematically compares AI-generated images with their natural counterpa
   </span>
 </span>
 
-</li>
-</ol>
+
 <p>At the heart of our benchmark is the D-ANI (Distinguishing Natural and AI-generated) dataset. We started with 5,000 high-quality natural images from the MS COCO dataset, each with at least five captions. We then used these text-image pairs to prompt nine different generative models to create a diverse collection of over 440,000 AIGIs.</p>
-<p>Models: Includes GANs (GALIP, DF-GAN), various Stable Diffusion versions (v1.4, v1.5, v2.1, XL), Versatile Diffusion, and OpenAI&rsquo;s DALL-E 2 &amp; 3.</p>
-<p>Prompts: Uniquely covers Text-to-Image (T2I), Image-to-Image (I2I), and Text-and-Image-to-Image (TI2I) guidance.</p>
+<ul>
+<li>Models: Includes GANs (GALIP, DF-GAN), various Stable Diffusion versions (v1.4, v1.5, v2.1, XL), Versatile Diffusion, and OpenAI&rsquo;s DALL-E 2 &amp; 3.</li>
+<li>Prompts: Uniquely covers Text-to-Image (T2I), Image-to-Image (I2I), and Text-and-Image-to-Image (TI2I) guidance.</li>
+</ul>
 
   
   
@@ -658,9 +547,7 @@ D-Judge systematically compares AI-generated images with their natural counterpa
   </figure>
 
 
-<ol start="3">
-<li>The 5-Dimension Evaluation
-<span class="flex">
+<h3 id="3-the-5-dimension-evaluation" class="relative group">3. The 5-Dimension Evaluation <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#3-the-5-dimension-evaluation" aria-label="Anchor">#</a></span></h3><span class="flex">
   <span
     class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
   >
@@ -668,25 +555,29 @@ D-Judge systematically compares AI-generated images with their natural counterpa
   </span>
 </span>
 
-</li>
-</ol>
+
 <p>D-Judge assesses the gap between AI and reality from five perspectives:</p>
-<p>Naive Image Quality: How good is the image on a technical level? We measure this at three granularities:</p>
-<p>Structure-level: Low-level visual similarity using metrics like SSIM and LPIPS.</p>
-<p>Frame-level: Perceptual quality from a high-level view using metrics like BRISQUE and PIQE.</p>
-<p>Distribution-level: Holistic content differences across the entire dataset using FID and Inception Score.</p>
-<p>Semantic Alignment: Does the image match the prompt? We use CLIP Score to measure the consistency between the generated image and the guiding prompt(s).</p>
-<p>Aesthetic Appeal: Is the image visually pleasing? We use models like NIMA and LAION-AES to predict the artistic quality and attractiveness.</p>
-<p>Downstream Applicability: Can the image be used in other AI tasks? We test its utility in</p>
-<p>image recognition, object segmentation, and Visual Question Answering (VQA).</p>
-<p>Human Validation: How do people perceive these images? We collect human ratings on quality, alignment, and aesthetics to see if quantitative metrics align with human judgment.</p>
-<p>Representative Findings
-Our extensive experiments reveal that while AIGIs are impressive, significant gaps remain.</p>
-<p>Key Discrepancies Revealed</p>
-<p>Large Gaps Persist: AIGIs show substantial discrepancies from natural images, with difference rates of up to 40% in image quality, 33.57% in semantic alignment, and a staggering 96.95% in downstream task applicability (specifically VQA).</p>
-<p>Downstream Tasks Suffer: The poor performance in downstream tasks like fine-grained object recognition and VQA highlights that current models struggle with practical, real-world utility.</p>
-<p>Text Guidance is Key: Images generated with text prompts (T2I and TI2I) show much better semantic alignment than those generated from an image prompt alone (I2I).</p>
-<p>Human vs. Machine Evaluation 🧐
+<ol>
+<li>Naive Image Quality: How good is the image on a technical level? We measure this at three granularities:
+<ul>
+<li>Structure-level: Low-level visual similarity using metrics like SSIM and LPIPS.</li>
+<li>Frame-level: Perceptual quality from a high-level view using metrics like BRISQUE and PIQE.</li>
+<li>Distribution-level: Holistic content differences across the entire dataset using FID and Inception Score.</li>
+</ul>
+</li>
+<li>Semantic Alignment: Does the image match the prompt? We use CLIP Score to measure the consistency between the generated image and the guiding prompt(s).</li>
+<li>Aesthetic Appeal: Is the image visually pleasing? We use models like NIMA and LAION-AES to predict the artistic quality and attractiveness.</li>
+<li>Downstream Applicability: Can the image be used in other AI tasks? We test its utility in image recognition, object segmentation, and Visual Question Answering (VQA).</li>
+<li>Human Validation: How do people perceive these images? We collect human ratings on quality, alignment, and aesthetics to see if quantitative metrics align with human judgment.</li>
+</ol>
+<h2 id="representative-findings" class="relative group">Representative Findings <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#representative-findings" aria-label="Anchor">#</a></span></h2><p>Our extensive experiments reveal that while AIGIs are impressive, significant gaps remain.</p>
+<p><strong>Key Discrepancies Revealed</strong></p>
+<ul>
+<li>Large Gaps Persist: AIGIs show substantial discrepancies from natural images, with difference rates of up to 40% in image quality, 33.57% in semantic alignment, and a staggering 96.95% in downstream task applicability (specifically VQA).</li>
+<li>Downstream Tasks Suffer: The poor performance in downstream tasks like fine-grained object recognition and VQA highlights that current models struggle with practical, real-world utility.</li>
+<li>Text Guidance is Key: Images generated with text prompts (T2I and TI2I) show much better semantic alignment than those generated from an image prompt alone (I2I).</li>
+</ul>
+<p><strong>Human vs. Machine Evaluation 🧐</strong>
 <div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
   <span class="pe-3 text-primary-400">
     <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
@@ -696,22 +587,14 @@ Our extensive experiments reveal that while AIGIs are impressive, significant ga
 </div>
 </p>
 <p>Category Matters: The gap between AI and natural images varies significantly across different content categories (e.g., &ldquo;animal&rdquo; vs. &ldquo;accessory&rdquo;), likely due to imbalances in training data. DALL-E 3, for instance, showed the most pronounced deviations, possibly due to its tendency to generate more stylized imagery.</p>
-<p>How to Use D-Judge
-Our benchmark is a resource for the community to drive AIGC research forward.</p>
-<p>For Researchers &amp; Developers
-Evaluate New Models: Use the D-ANI dataset and the D-Judge framework to rigorously benchmark new generative models against a diverse set of conditions.</p>
-<p>Identify Weaknesses: The five-dimensional analysis helps pinpoint specific areas where a model is underperforming (e.g., poor structural fidelity, weak semantic alignment on I2I tasks).</p>
-<p>Develop Better Models: Beyond evaluation, D-Judge can serve as a training signal—for instance, as a reward function in reinforcement learning—to optimize models for better alignment and usability.</p>
-<p>Acknowledgments
-<div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
+<h2 id="acknowledgments" class="relative group">Acknowledgments <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#acknowledgments" aria-label="Anchor">#</a></span></h2><div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
   <span class="pe-3 text-primary-400">
     
   </span>
   <span class="dark:text-neutral-300">Acknowledgments: This work is supported by Guangdong Basic and Applied Basic Research Foundation (2023A1515012848), CCF-DiDi GAIA Collaborative Research Funds, A*STAR, CISCO Systems (USA) Pte.Ltd, and the National University of Singapore. We thank all the volunteers who participated in our human evaluation experiments.</span>
 </div>
-</p>
-<p>Citation
-Reference (ACM MM &lsquo;25, Dublin, Ireland):</p>
+
+<h2 id="citation" class="relative group">Citation <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#citation" aria-label="Anchor">#</a></span></h2><p>Reference (ACM MM &lsquo;25, Dublin, Ireland):</p>
 <p>Renyang Liu, Ziyu Lyu, Wei Zhou, and See-Kiong Ng. 2025. D-Judge: How Far Are We? Assessing the Discrepancies Between AI-synthesized and Natural Images through Multimodal Guidance. In Proceedings of the 33rd ACM International Conference on Multimedia (MM &lsquo;25). ACM, New York, NY, USA, 19 pages. <a href="https://arxiv.org/pdf/2412.17632" target="_blank" rel="noreferrer">https://arxiv.org/pdf/2412.17632</a></p>
 <details>
 <summary>BibTeX</summary>
@@ -722,52 +605,10 @@ Reference (ACM MM &lsquo;25, Dublin, Ireland):</p>
   year={2024}
 }
 </details>
-      </div>
     </section>
-    <footer class="max-w-prose pt-8 print:hidden">
+    <footer class="pt-8">
       
 
-      
-
-      
-  
-    
-    
-    
-    <div class="pt-8">
-      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
-      <div class="flex justify-between pt-3">
-        <span>
-          
-            <a class="group flex" href="http://localhost:1313/posts/website-launch/">
-              <span
-                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&larr;</span
-                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
-              >
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >🎊 Official Lab Website Launched</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2025-01-01 00:00:00 &#43;0000 UTC">January 1 2025</time>
-                  
-                </span>
-              </span>
-            </a>
-          
-        </span>
-        <span>
-          
-        </span>
-      </div>
-    </div>
-  
-
-
-      
     </footer>
   </article>
 
@@ -789,44 +630,6 @@ Reference (ACM MM &lsquo;25, Dublin, Ireland):</p>
         </div>
       <footer class="py-10 print:hidden">
   
-  
-    <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
-      <ul class="flex list-none flex-col sm:flex-row">
-        
-          
-          <li class="group mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0">
-            
-              <a
-                href="/activities/"
-                title="Lab Activities"
-                
-                ><span
-                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                    >Lab Activities</span
-                  >
-                </a
-              >
-            
-          </li>
-        
-          
-          <li class="group mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0">
-            
-              <a
-                href="/conference_deadlines/"
-                title="Conference Deadlines"
-                
-                ><span
-                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                    >Conference Deadlines</span
-                  >
-                </a
-              >
-            
-          </li>
-        
-      </ul>
-    </nav>
   
   <div class="flex items-center justify-between">
     <div>
