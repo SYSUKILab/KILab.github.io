@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication on KILab🚀</title>
+    <link>http://localhost:1313/categories/publication/</link>
+    <description>Recent content in Publication on KILab🚀</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>**Address**: Room 910D, Engineering Building No.2, Shenzhen Campus of Sun Yat-sen University, No.66 Gongchang Road, Guangming District, Shenzhen, 518107, P. R. China
+
+**Contact**: lvzy7@mail.sysu.edu.cn
+
+© 2025 Knowledge Intelligince Lab @ SYSU.
+</copyright>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/publication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FairWork: A Generic Framework For Evaluating Fairness In LLM-Based Job Recommender System</title>
+      <link>http://localhost:1313/posts/fairwork2/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fairwork2/</guid>
+      <description>&lt;p&gt;Dual-perspective, dual-granularity fairness evaluation for LLM-based job recommendation: we assess bias from both the user and the recruiter sides, at individual and group levels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MidPO: Dual Preference Optimization for Safety and Helpfulness in Large Language Models via a Mixture of Experts Framework</title>
+      <link>http://localhost:1313/posts/midpo/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/midpo/</guid>
+      <description>&lt;p&gt;Large Language Models (LLMs) need to be both helpful and safe, but achieving both is a major challenge. We propose MidPO, a Mixture of Experts (MoE) framework that fine-tunes two specialized experts for safety and helpfulness and uses a dynamic routing mechanism to adaptively balance them, outperforming existing methods.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

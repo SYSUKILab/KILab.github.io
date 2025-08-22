@@ -12,8 +12,57 @@
 
 © 2025 Knowledge Intelligince Lab @ SYSU.
 </copyright>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bias Evaluation</title>
+      <link>http://localhost:1313/tags/bias-evaluation/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bias-evaluation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fairness</title>
+      <link>http://localhost:1313/tags/fairness/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fairness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Job Recommendation</title>
+      <link>http://localhost:1313/tags/job-recommendation/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/job-recommendation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>http://localhost:1313/tags/llm/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Safety</title>
+      <link>http://localhost:1313/tags/ai-safety/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai-safety/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mixture of Experts</title>
+      <link>http://localhost:1313/tags/mixture-of-experts/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mixture-of-experts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Preference Optimization</title>
+      <link>http://localhost:1313/tags/preference-optimization/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/preference-optimization/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Announcement</title>
       <link>http://localhost:1313/tags/announcement/</link>
