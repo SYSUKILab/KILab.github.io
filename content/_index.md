@@ -75,11 +75,11 @@ Our lab is directed by Dr. Ziyu Lyu. We are dedicated to advancing cutting-edge 
 
 
 {{< alert "lightbulb" >}}
-Congrats to **Pengyu Qi**! Our work, "MidPO: Dual Preference Optimization for Safety and Helpfulness in LLMs via MoE Framework", has been accepted by **EMNLP FINDING 2025**.
+[2025.8] Congrats to **Pengyu Qi**! Our work, "MidPO: Dual Preference Optimization for Safety and Helpfulness in LLMs via MoE Framework", has been accepted by **EMNLP FINDING 2025**.
 {{< /alert >}}
 
 {{< alert "lightbulb" >}}
-Congrats to **[Renyang Liu](https://scholar.google.com/citations?user=yUJafNAAAAAJ&hl=en)**! Our collaborative work, "D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance", has been accepted by **ACM MM 2025**.
+[2025.7] Congrats to **[Renyang Liu](https://scholar.google.com/citations?user=yUJafNAAAAAJ&hl=en)**! Our collaborative work, "D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance", has been accepted by **ACM MM 2025**.
 {{< /alert >}}
 
 
