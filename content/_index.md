@@ -316,7 +316,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!isHovered) {
         nextSlide();
       }
-    }, 5000); // Change slide every 5 seconds
+    }, 2000); // Change slide every 5 seconds
   }
   
   // Stop autoplay
