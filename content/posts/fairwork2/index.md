@@ -140,13 +140,6 @@ Our comprehensive evaluation revealed several important patterns:
 3. The system performs **industry-aware sampling**
 4. Runs metrics for **user**/**recruiter** perspectives
 
----
-
-## Team & Acknowledgments
-
-{{< alert "heart" >}}
-**Acknowledgments**: Supported by Guangdong Basic and Applied Basic Research Foundation (2023A1515012848) and CCF-DiDi GAIA Collaborative Research Funds for Young Scholars.
-{{< /alert >}}
 
 ---
 

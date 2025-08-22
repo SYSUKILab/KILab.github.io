@@ -138,7 +138,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "868"
+    "wordCount": "652"
   }
   </script>
     
@@ -391,8 +391,8 @@
 </p>
 <h2 id="what-we-built" class="relative group">What We Built <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-we-built" aria-label="Anchor">#</a></span></h2><p>Our work introduces two core contributions to tackle this challenge:</p>
 <ul>
-<li>The D-ANI Dataset: A massive new multimodal dataset featuring over 440,000 AI-generated images from 9 representative models (from GANs to DALL-E 3). It&rsquo;s the first to include images generated from unimodal (Text-to-Image, Image-to-Image) and multimodal (Text-and-Image-to-Image) prompts.</li>
-<li>The D-Judge Framework: A fine-grained evaluation framework that assesses discrepancies across five crucial dimensions: naive visual quality, semantic alignment, aesthetic appeal, downstream task applicability, and coordinated human validation.</li>
+<li><strong>The D-ANI Dataset</strong>: A massive new multimodal dataset featuring over 440,000 AI-generated images from 9 representative models (from GANs to DALL-E 3). It&rsquo;s the first to include images generated from unimodal (Text-to-Image, Image-to-Image) and multimodal (Text-and-Image-to-Image) prompts.</li>
+<li><strong>The D-Judge Framework</strong>: A fine-grained evaluation framework that assesses discrepancies across five crucial dimensions: naive visual quality, semantic alignment, aesthetic appeal, downstream task applicability, and coordinated human validation.</li>
 </ul>
 <h2 id="method--system" class="relative group">Method &amp; System <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#method--system" aria-label="Anchor">#</a></span></h2><h3 id="1-framework-overview" class="relative group">1. Framework Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#1-framework-overview" aria-label="Anchor">#</a></span></h3><p>D-Judge systematically compares AI-generated images with their natural counterparts. For a given prompt, we generate an AIGI and pair it with a real reference image. The framework then assesses the &ldquo;Discrepancy Rate&rdquo; (DR) between the two across our five dimensions, integrating both automated metrics and human judgment for a holistic view.</p>
 
@@ -547,53 +547,15 @@
   </figure>
 
 
-<h3 id="3-the-5-dimension-evaluation" class="relative group">3. The 5-Dimension Evaluation <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#3-the-5-dimension-evaluation" aria-label="Anchor">#</a></span></h3><span class="flex">
-  <span
-    class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    Our Evaluation Framework
-  </span>
-</span>
-
-
-<p>D-Judge assesses the gap between AI and reality from five perspectives:</p>
-<ol>
-<li>Naive Image Quality: How good is the image on a technical level? We measure this at three granularities:
-<ul>
-<li>Structure-level: Low-level visual similarity using metrics like SSIM and LPIPS.</li>
-<li>Frame-level: Perceptual quality from a high-level view using metrics like BRISQUE and PIQE.</li>
-<li>Distribution-level: Holistic content differences across the entire dataset using FID and Inception Score.</li>
-</ul>
-</li>
-<li>Semantic Alignment: Does the image match the prompt? We use CLIP Score to measure the consistency between the generated image and the guiding prompt(s).</li>
-<li>Aesthetic Appeal: Is the image visually pleasing? We use models like NIMA and LAION-AES to predict the artistic quality and attractiveness.</li>
-<li>Downstream Applicability: Can the image be used in other AI tasks? We test its utility in image recognition, object segmentation, and Visual Question Answering (VQA).</li>
-<li>Human Validation: How do people perceive these images? We collect human ratings on quality, alignment, and aesthetics to see if quantitative metrics align with human judgment.</li>
-</ol>
 <h2 id="representative-findings" class="relative group">Representative Findings <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#representative-findings" aria-label="Anchor">#</a></span></h2><p>Our extensive experiments reveal that while AIGIs are impressive, significant gaps remain.</p>
 <p><strong>Key Discrepancies Revealed</strong></p>
 <ul>
-<li>Large Gaps Persist: AIGIs show substantial discrepancies from natural images, with difference rates of up to 40% in image quality, 33.57% in semantic alignment, and a staggering 96.95% in downstream task applicability (specifically VQA).</li>
-<li>Downstream Tasks Suffer: The poor performance in downstream tasks like fine-grained object recognition and VQA highlights that current models struggle with practical, real-world utility.</li>
-<li>Text Guidance is Key: Images generated with text prompts (T2I and TI2I) show much better semantic alignment than those generated from an image prompt alone (I2I).</li>
+<li><strong>Large Gaps Persist</strong>: AIGIs show substantial discrepancies from natural images, with difference rates of up to 40% in image quality, 33.57% in semantic alignment, and a staggering 96.95% in downstream task applicability (specifically VQA).</li>
+<li><strong>Downstream Tasks Suffer</strong>: The poor performance in downstream tasks like fine-grained object recognition and VQA highlights that current models struggle with practical, real-world utility.</li>
+<li><strong>Text Guidance is Key</strong>: Images generated with text prompts (T2I and TI2I) show much better semantic alignment than those generated from an image prompt alone (I2I).</li>
+<li><strong>Human vs. Machine Evaluation</strong>: Human evaluators consistently identify larger discrepancies in quality, alignment, and aesthetics than our automated metrics do. This shows that current metrics don&rsquo;t fully capture human perception and validates the need for human-in-the-loop evaluation.
+<strong>Category Matters:</strong> The gap between AI and natural images varies significantly across different content categories (e.g., &ldquo;animal&rdquo; vs. &ldquo;accessory&rdquo;), likely due to imbalances in training data. DALL-E 3, for instance, showed the most pronounced deviations, possibly due to its tendency to generate more stylized imagery.</li>
 </ul>
-<p><strong>Human vs. Machine Evaluation 🧐</strong>
-<div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
-  <span class="pe-3 text-primary-400">
-    <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
-</span>
-  </span>
-  <span class="dark:text-neutral-300">Key Finding: Human evaluators consistently identify larger discrepancies in quality, alignment, and aesthetics than our automated metrics do. This shows that current metrics don&rsquo;t fully capture human perception and validates the need for human-in-the-loop evaluation.</span>
-</div>
-</p>
-<p>Category Matters: The gap between AI and natural images varies significantly across different content categories (e.g., &ldquo;animal&rdquo; vs. &ldquo;accessory&rdquo;), likely due to imbalances in training data. DALL-E 3, for instance, showed the most pronounced deviations, possibly due to its tendency to generate more stylized imagery.</p>
-<h2 id="acknowledgments" class="relative group">Acknowledgments <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#acknowledgments" aria-label="Anchor">#</a></span></h2><div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
-  <span class="pe-3 text-primary-400">
-    
-  </span>
-  <span class="dark:text-neutral-300">Acknowledgments: This work is supported by Guangdong Basic and Applied Basic Research Foundation (2023A1515012848), CCF-DiDi GAIA Collaborative Research Funds, A*STAR, CISCO Systems (USA) Pte.Ltd, and the National University of Singapore. We thank all the volunteers who participated in our human evaluation experiments.</span>
-</div>
-
 <h2 id="citation" class="relative group">Citation <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#citation" aria-label="Anchor">#</a></span></h2><p>Reference (ACM MM &lsquo;25, Dublin, Ireland):</p>
 <p>Renyang Liu, Ziyu Lyu, Wei Zhou, and See-Kiong Ng. 2025. D-Judge: How Far Are We? Assessing the Discrepancies Between AI-synthesized and Natural Images through Multimodal Guidance. In Proceedings of the 33rd ACM International Conference on Multimedia (MM &lsquo;25). ACM, New York, NY, USA, 19 pages. <a href="https://arxiv.org/pdf/2412.17632" target="_blank" rel="noreferrer">https://arxiv.org/pdf/2412.17632</a></p>
 <details>
