@@ -12,12 +12,12 @@
 
 © 2025 Knowledge Intelligince Lab @ SYSU.
 </copyright>
-    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/preference-optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MidPO: Dual Preference Optimization for Safety and Helpfulness in Large Language Models via a Mixture of Experts Framework</title>
       <link>http://localhost:1313/posts/midpo/</link>
-      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/midpo/</guid>
       <description>&lt;p&gt;Large Language Models (LLMs) need to be both helpful and safe, but achieving both is a major challenge. We propose MidPO, a Mixture of Experts (MoE) framework that fine-tunes two specialized experts for safety and helpfulness and uses a dynamic routing mechanism to adaptively balance them, outperforming existing methods.&lt;/p&gt;</description>
     </item>

@@ -12,19 +12,19 @@
 
 © 2025 Knowledge Intelligince Lab @ SYSU.
 </copyright>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publication</title>
       <link>http://localhost:1313/categories/publication/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/publication/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
       <link>http://localhost:1313/categories/research/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/research/</guid>
       <description></description>
     </item>
