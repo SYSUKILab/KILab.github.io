@@ -1,6 +1,6 @@
 ---
 title: "D-Judge: How Far Are We? Accessing the Discrepancies Between AI-synthesized Images and Natural Images through Multimodal Guidance"
-date: 2025-07-30
+date: 2025-07-01
 layout: "simple"
 ---
 AI-generated images are more visually stunning than ever, but how do they really stack up against natural, real-world photos? We introduce D-Judge, a large-scale benchmark designed to systematically investigate and quantify the discrepancies that remain.

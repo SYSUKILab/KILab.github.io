@@ -2,7 +2,7 @@
 layout: "simple"
 title: "FairWork: A Generic Framework For Evaluating Fairness In LLM-Based Job Recommender System"
 description: "Dual-perspective, dual-granularity fairness evaluation for LLM-based job recommendation: we assess bias from both the user and the recruiter sides, at individual and group levels."
-date: 2025-01-15
+date: 2025-07-20
 tags: ["fairness", "LLM", "job recommendation", "bias evaluation"]
 categories: ["research", "publication"]
 ---
