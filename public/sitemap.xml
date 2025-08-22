@@ -99,12 +99,6 @@
   
     
       <url>
-            <loc>http://localhost:1313/full_paperlist/</loc>
-          </url>
-    
-  
-    
-      <url>
             <loc>http://localhost:1313/resources/</loc>
           </url>
     
